@@ -4,16 +4,20 @@
    =========================== */
 
 :root {
-    /* Brand Colors - Adjust based on social posts Kevin sends */
-    --color-primary: #2C5F2D;      /* Deep green */
-    --color-primary-light: #97BC62; /* Soft sage */
-    --color-secondary: #F5F5DC;     /* Cream/beige */
-    --color-accent: #D4AF37;        /* Gold accent */
-    --color-text: #1a1a1a;
-    --color-text-light: #666;
-    --color-border: #e5e5e5;
-    --color-bg: #ffffff;
-    --color-bg-alt: #f9f9f9;
+    /* Seren Brand Colors - From Kevin's palette */
+    --color-primary: #465c29;       /* Dark green */
+    --color-primary-dark: #253f20;  /* Deepest green */
+    --color-primary-light: #6b8a3e; /* Lighter green */
+    --color-accent: #ba6d38;        /* Warm orange */
+    --color-accent-light: #ce8655;  /* Light peach */
+    --color-accent-lighter: #dda37c; /* Lighter peach */
+    --color-secondary: #fffee9;     /* Cream/ivory */
+    --color-brown: #704121;         /* Brown */
+    --color-text: #131718;          /* Almost black */
+    --color-text-light: #465c29;    /* Dark green for secondary text */
+    --color-border: #dda37c;        /* Light peach border */
+    --color-bg: #fffee9;            /* Cream background */
+    --color-bg-alt: #fff;           /* White alternate */
     
     /* Typography */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
