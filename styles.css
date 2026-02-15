@@ -1,0 +1,487 @@
+/* Seren Matcha - Rocky's Matcha Inspired Premium Design */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', -apple-system, sans-serif;
+    color: #2b2b2b;
+    background: #fff;
+    line-height: 1.5;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+    background: #253f20;
+    color: #fffee9;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Header & Nav */
+.header {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #253f20;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.nav-menu a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #ba6d38;
+}
+
+.nav-right {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 60px 40px;
+    align-items: center;
+}
+
+.hero-images {
+    order: 2;
+}
+
+.hero-image-main {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    order: 1;
+}
+
+.hero-title {
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #253f20;
+    margin-bottom: 25px;
+}
+
+.hero-description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.hero-features {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    font-size: 13px;
+    color: #465c29;
+    font-weight: 500;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons */
+.btn {
+    padding: 16px 32px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.btn-primary {
+    background: #253f20;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #465c29;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #253f20;
+    border: 2px solid #253f20;
+}
+
+.btn-secondary:hover {
+    background: #253f20;
+    color: #fff;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #253f20;
+    margin-bottom: 50px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background: #fff;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #ba6d38;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    z-index: 10;
+}
+
+.badge-new {
+    background: #253f20;
+}
+
+.badge-premium {
+    background: #704121;
+}
+
+.product-image {
+    aspect-ratio: 1;
+    background: #f5f5f5;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.product-info {
+    padding: 0 15px 15px;
+}
+
+.product-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: #253f20;
+    margin-bottom: 5px;
+}
+
+.product-type {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.product-rating {
+    font-size: 13px;
+    color: #ba6d38;
+    margin-bottom: 10px;
+}
+
+.product-rating span {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #253f20;
+    margin-bottom: 15px;
+}
+
+.product-coming-soon {
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.btn-add-cart {
+    width: 100%;
+    padding: 14px;
+    font-size: 12px;
+    margin: 0 15px 15px;
+}
+
+.btn-waitlist {
+    width: 100%;
+    margin: 0 15px 15px;
+    padding: 14px;
+    font-size: 12px;
+}
+
+.view-all {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Story Banner */
+.story-banner {
+    background: #253f20;
+    color: #fffee9;
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.story-content h2 {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.story-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: rgba(255, 254, 233, 0.9);
+}
+
+.story-content .btn {
+    margin-top: 20px;
+    background: #fffee9;
+    color: #253f20;
+}
+
+.story-content .btn:hover {
+    background: #ce8655;
+    color: #fff;
+}
+
+/* Trust Section */
+.trust-section {
+    padding: 80px 0;
+}
+
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.trust-item {
+    text-align: center;
+}
+
+.trust-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.trust-item h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #253f20;
+    margin-bottom: 8px;
+}
+
+.trust-item p {
+    font-size: 13px;
+    color: #888;
+}
+
+/* Footer */
+.footer {
+    background: #253f20;
+    color: #fffee9;
+    padding: 60px 40px 30px;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.footer-column h4 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    color: rgba(255, 254, 233, 0.7);
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.2s;
+}
+
+.footer-column a:hover {
+    color: #ce8655;
+}
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 254, 233, 0.1);
+    font-size: 12px;
+    color: rgba(255, 254, 233, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-images {
+        order: 1;
+    }
+    
+    .hero-content {
+        order: 2;
+        text-align: center;
+    }
+    
+    .hero-cta {
+        justify-content: center;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .hero-title {
+        font-size: 38px;
+    }
+    
+    .products-grid,
+    .trust-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}

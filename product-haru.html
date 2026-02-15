@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haru Ceremonial Matcha - Seren Matcha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-page {
+            max-width: 1400px;
+            margin: 60px auto;
+            padding: 0 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+        }
+        
+        .product-gallery {
+            position: sticky;
+            top: 120px;
+            height: fit-content;
+        }
+        
+        .main-image {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .thumbnails {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        
+        .thumbnail {
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        
+        .thumbnail:hover,
+        .thumbnail.active {
+            opacity: 1;
+        }
+        
+        .product-details h1 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #253f20;
+            margin-bottom: 10px;
+        }
+        
+        .product-subtitle {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        
+        .product-reviews-summary {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+        
+        .stars-large {
+            color: #ba6d38;
+            font-size: 16px;
+        }
+        
+        .review-link {
+            color: #888;
+            font-size: 13px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .price-section {
+            margin-bottom: 30px;
+        }
+        
+        .price-large {
+            font-size: 32px;
+            font-weight: 600;
+            color: #253f20;
+        }
+        
+        .subscription-section {
+            background: #fafafa;
+            border: 2px solid #e8e8e8;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .subscription-header {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #253f20;
+        }
+        
+        .subscription-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .subscription-option {
+            padding: 15px;
+            border: 2px solid #e8e8e8;
+            background: #fff;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        
+        .subscription-option.active {
+            border-color: #253f20;
+            background: #253f20;
+            color: #fff;
+        }
+        
+        .option-title {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .option-price {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .option-save {
+            font-size: 11px;
+            color: #ba6d38;
+        }
+        
+        .subscription-option.active .option-save {
+            color: #ce8655;
+        }
+        
+        .frequency-select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e8e8e8;
+            font-size: 13px;
+            font-family: inherit;
+            margin-bottom: 10px;
+        }
+        
+        .add-to-cart-section {
+            margin-bottom: 30px;
+        }
+        
+        .btn-large {
+            width: 100%;
+            padding: 18px;
+            font-size: 14px;
+        }
+        
+        .product-description {
+            margin-bottom: 30px;
+            line-height: 1.8;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .accordion {
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .accordion-item {
+            border-bottom: 1px solid #e8e8e8;
+        }
+        
+        .accordion-header {
+            padding: 20px 0;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .accordion-content {
+            padding-bottom: 20px;
+            color: #666;
+            font-size: 13px;
+            line-height: 1.7;
+            display: none;
+        }
+        
+        .accordion-content.active {
+            display: block;
+        }
+        
+        @media (max-width: 1024px) {
+            .product-page {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .product-gallery {
+                position: relative;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="announcement-bar">
+        FREE SHIPPING ON ORDERS OVER $99 AUD | 15% OFF SUBSCRIPTIONS
+    </div>
+    
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">SEREN MATCHA</a>
+            <ul class="nav-menu">
+                <li><a href="collection.html">SHOP</a></li>
+                <li><a href="collection.html">MATCHA</a></li>
+                <li><a href="kits.html">KITS</a></li>
+                <li><a href="story.html">OUR STORY</a></li>
+                <li><a href="wholesale.html">WHOLESALE</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="#" class="nav-link">SEARCH</a>
+                <a href="cart.html" class="nav-link">CART (0)</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="product-page">
+        <div class="product-gallery">
+            <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png?v=1760682896" alt="Haru Matcha" class="main-image">
+            <div class="thumbnails">
+                <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png?v=1760682896" class="thumbnail active" alt="Haru Front">
+                <img src="https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=200&h=200&fit=crop" class="thumbnail" alt="Haru Lifestyle">
+                <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=200&h=200&fit=crop" class="thumbnail" alt="Haru Detail">
+                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=200&h=200&fit=crop" class="thumbnail" alt="Haru In Use">
+            </div>
+        </div>
+        
+        <div class="product-details">
+            <div class="product-badge" style="display: inline-block; position: static; margin-bottom: 15px;">BEST SELLER</div>
+            <h1>Haru</h1>
+            <p class="product-subtitle">First Harvest Ceremonial Matcha | 30g</p>
+            
+            <div class="product-reviews-summary">
+                <span class="stars-large">★★★★★</span>
+                <span class="review-link">145 Reviews</span>
+            </div>
+            
+            <div class="price-section">
+                <div class="price-large">$55.00 AUD</div>
+            </div>
+            
+            <div class="subscription-section">
+                <div class="subscription-header">PURCHASE OPTIONS</div>
+                <div class="subscription-options">
+                    <div class="subscription-option active" data-type="subscribe">
+                        <div class="option-title">SUBSCRIBE</div>
+                        <div class="option-price">$46.75</div>
+                        <div class="option-save">SAVE 15%</div>
+                    </div>
+                    <div class="subscription-option" data-type="onetime">
+                        <div class="option-title">ONE-TIME</div>
+                        <div class="option-price">$55.00</div>
+                    </div>
+                </div>
+                <select class="frequency-select" id="frequency">
+                    <option value="2">Deliver every 2 weeks</option>
+                    <option value="4" selected>Deliver every 4 weeks (Most Popular)</option>
+                    <option value="6">Deliver every 6 weeks</option>
+                    <option value="8">Deliver every 8 weeks</option>
+                </select>
+                <p style="font-size: 12px; color: #888;">Free cancellation anytime. Skip or reschedule in your account.</p>
+            </div>
+            
+            <div class="add-to-cart-section">
+                <button class="btn btn-primary btn-large">ADD TO CART - $46.75 AUD</button>
+            </div>
+            
+            <div class="product-description">
+                <p><strong>Meet Haru</strong> - our debut ceremonial blend from Uji, Kyoto, the birthplace of matcha.</p>
+                <p>Hand-picked in the first harvest, shade-grown for 29 days, and stone-milled slow, Haru is crafted for balance: a soft creamy morning cup with vivid umami that also holds its own in a latte.</p>
+                <p>Named after the Japanese word for "spring," Haru captures the gentle awakening of the season - fresh, bright, and full of quiet energy.</p>
+            </div>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>ORIGIN & PROCESS</span>
+                        <span>+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p><strong>Region:</strong> Uji, Kyoto, Japan</p>
+                        <p><strong>Harvest:</strong> First flush (shincha season)</p>
+                        <p><strong>Cultivars:</strong> Saemidori & Yutakamidori</p>
+                        <p><strong>Shading:</strong> 29 days under traditional coverings</p>
+                        <p><strong>Processing:</strong> Hand-picked, hand-sorted</p>
+                        <p><strong>Milling:</strong> Granite stone-milled at low speed</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>HOW TO PREPARE</span>
+                        <span>+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p><strong>Traditional:</strong> Sift 2g into bowl, add 60ml water (70-80°C), whisk in M motion until frothy.</p>
+                        <p><strong>Latte:</strong> Prepare as above, then add 250ml steamed milk.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>SHIPPING & RETURNS</span>
+                        <span>+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Free shipping on orders $99+. Express available. 30-day satisfaction guarantee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>SHOP</h4>
+                <ul>
+                    <li><a href="collection.html">Seren Collection</a></li>
+                    <li><a href="kits.html">Starter Kits</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>LEARN</h4>
+                <ul>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="guide.html">Matcha Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>CONNECT</h4>
+                <ul>
+                    <li><a href="https://instagram.com/serendipityaustralia">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Seren Matcha
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        // Subscription toggle
+        const options = document.querySelectorAll('.subscription-option');
+        const addButton = document.querySelector('.btn-large');
+        
+        options.forEach(opt => {
+            opt.addEventListener('click', function() {
+                options.forEach(o => o.classList.remove('active'));
+                this.classList.add('active');
+                
+                if (this.dataset.type === 'subscribe') {
+                    addButton.textContent = 'SUBSCRIBE & SAVE 15% - $46.75 AUD';
+                    document.getElementById('frequency').style.display = 'block';
+                } else {
+                    addButton.textContent = 'ADD TO CART - $55.00 AUD';
+                    document.getElementById('frequency').style.display = 'none';
+                }
+            });
+        });
+        
+        // Accordion
+        document.querySelectorAll('.accordion-header').forEach(header => {
+            header.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('span:last-child');
+                
+                content.classList.toggle('active');
+                icon.textContent = content.classList.contains('active') ? '−' : '+';
+            });
+        });
+        
+        // Thumbnails
+        document.querySelectorAll('.thumbnail').forEach((thumb, index) => {
+            thumb.addEventListener('click', function() {
+                document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                document.querySelector('.main-image').src = this.src.replace('w=200&h=200', 'w=800&h=800');
+            });
+        });
+    </script>
+</body>
+</html>
