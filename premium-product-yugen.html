@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yugen (玄々) | Serendipity Australia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/premium-styles.css">
+    <style>
+        .product-detail-grid {display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1400px; margin: 4rem auto; padding: 0 2rem;}
+        .product-gallery img {width: 100%; border-radius: 8px; margin-bottom: 1rem;}
+        .flavor-profile-chart {background: #FAF8F3; padding: 2rem; border-radius: 8px; margin: 2rem 0;}
+        .flavor-bar {margin: 1rem 0;}
+        .flavor-bar-label {display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.875rem;}
+        .flavor-bar-fill-container {background: #E8E8E8; height: 8px; border-radius: 4px; overflow: hidden;}
+        .flavor-bar-fill {background: #2C5F2D; height: 100%; transition: width 0.5s ease;}
+        .subscription-toggle {background: #FAF8F3; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;}
+        .toggle-options {display: flex; gap: 1rem; margin: 1rem 0;}
+        .toggle-option {flex: 1; padding: 1rem; border: 2px solid #E8E8E8; border-radius: 4px; text-align: center; cursor: pointer; transition: all 0.3s;}
+        .toggle-option.active {border-color: #2C5F2D; background: white;}
+    </style>
+</head>
+<body>
+    <div class="announcement-bar">FREE SHIPPING AUSTRALIA-WIDE ON ORDERS OVER $99</div>
+    <header class="header">
+        <nav class="nav">
+            <a href="premium-home.html" class="logo">SERENDIPITY AUSTRALIA</a>
+            <ul class="nav-menu">
+                <li><a href="premium-shop.html">Shop</a></li>
+                <li><a href="premium-shop.html">Matcha</a></li>
+                <li><a href="premium-shop.html">Bundles</a></li>
+                <li><a href="premium-about.html">Our Story</a></li>
+            </ul>
+            <div class="nav-right">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-icon">🛒</span>
+            </div>
+        </nav>
+    </header>
+    <div class="product-detail-grid">
+        <div class="product-gallery">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%237CB342' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3EMatcha%3C/text%3E%3C/svg%3E" alt="Yugen (玄々)">
+        </div>
+        <div class="product-details">
+            <h1 style="font-family: var(--font-serif); font-size: 3rem; margin: 1rem 0;">Yugen (玄々)</h1>
+            <p style="font-size: 1.25rem; color: #999; margin-bottom: 1rem;">Premium Ceremonial Matcha - 40g</p>
+            <div class="product-rating">
+                <span class="product-stars">★★★★★</span>
+                <span class="product-review-count">(87 reviews)</span>
+            </div>
+            <p style="margin: 1.5rem 0; line-height: 1.8;">Fresh, nutty flavor with lingering sweetness. Medium-bodied ceremonial grade matcha perfect for daily enjoyment.</p>
+            <div class="flavor-profile-chart">
+                <h3 style="margin-bottom: 1.5rem;">Flavor Profile</h3>
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label"><span>Sweetness</span><span><strong>70%</strong></span></div>
+                    <div class="flavor-bar-fill-container"><div class="flavor-bar-fill" style="width: 70%;"></div></div>
+                </div>
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label"><span>Creaminess</span><span><strong>70%</strong></span></div>
+                    <div class="flavor-bar-fill-container"><div class="flavor-bar-fill" style="width: 70%;"></div></div>
+                </div>
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label"><span>Umami</span><span><strong>65%</strong></span></div>
+                    <div class="flavor-bar-fill-container"><div class="flavor-bar-fill" style="width: 65%;"></div></div>
+                </div>
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label"><span>Bitterness</span><span><strong>25%</strong></span></div>
+                    <div class="flavor-bar-fill-container"><div class="flavor-bar-fill" style="width: 25%;"></div></div>
+                </div>
+            </div>
+            <button class="btn btn-primary" style="width: 100%; padding: 1.25rem; margin-bottom: 1rem;">Add to Cart - 5.00</button>
+            <button class="btn btn-secondary" style="width: 100%; padding: 1.25rem;">Add to Wishlist</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-bottom"><p>© 2026 Serendipity Australia. All rights reserved.</p></div>
+    </footer>
+</body>
+</html>
