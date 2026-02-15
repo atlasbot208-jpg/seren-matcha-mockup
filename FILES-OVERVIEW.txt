@@ -1,0 +1,80 @@
+SEREN MATCHA WEBSITE MOCK-UP
+=============================
+
+Location: /home/openclaw/.openclaw/workspace/seren-mockup/
+
+FILES INCLUDED:
+===============
+
+1. index.html
+   - Full homepage mock-up
+   - Seren-first approach
+   - All sections: Hero, Products, Limited Edition, Kits, Education, Story, Curated Brands, Instagram Feed
+   - Ready to view in browser
+
+2. product-page-example.html
+   - Complete product page for "Haru" matcha
+   - Features: Flavor profiling graphs, subscription toggle, reviews, accordions, related products
+   - Shows ideal product page structure
+
+3. css/styles.css
+   - Complete styling for entire site
+   - Palo Alto theme inspired
+   - Mobile-responsive
+   - Color variables at top (easy to customize)
+
+4. js/main.js
+   - Interactive features: countdown timer, add to cart, subscription toggle, smooth scroll
+   - Ready to extend
+
+5. README.md
+   - Design philosophy
+   - Features list
+   - How to use mock-up
+   - Competitive features integrated
+   - What Palo Alto theme can/can't do
+   - Missing content checklist
+
+6. IMPLEMENTATION-GUIDE.md
+   - Phase-by-phase implementation (8 weeks)
+   - App recommendations with costs
+   - Complete feature checklist
+   - Success metrics
+   - Cost breakdown
+   - Quick wins list
+
+7. FILES-OVERVIEW.txt
+   - This file - quick reference
+
+COMPETITOR INTELLIGENCE:
+========================
+
+Location: /home/openclaw/.openclaw/workspace/competitor-intel/
+
+- baselines/2026-02-15-COMPREHENSIVE.md - Full competitor analysis
+- competitors.json - Competitor database
+- Automated daily monitoring starts tomorrow 9 AM AEDT
+
+HOW TO USE:
+===========
+
+1. Open index.html in browser to see homepage
+2. Open product-page-example.html to see product page
+3. Read README.md for overview
+4. Read IMPLEMENTATION-GUIDE.md for step-by-step Shopify setup
+5. Replace placeholder images with real photos
+6. Adjust colors in css/styles.css (variables at top)
+7. Use as reference when building in Shopify
+
+NEXT STEPS:
+===========
+
+Kevin needs to:
+1. Send social media posts (for color palette)
+2. Provide product photos
+3. Purchase Palo Alto theme
+4. Follow IMPLEMENTATION-GUIDE.md phase by phase
+
+BUILT: February 15, 2026
+BY: OpenClaw AI
+PURPOSE: Seren Matcha website redesign visualization
