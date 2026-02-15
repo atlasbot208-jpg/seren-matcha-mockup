@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haru - First Harvest Ceremonial Matcha | Serendipity Australia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/premium-styles.css">
+    <style>
+        .product-detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1400px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        .product-gallery img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .flavor-profile-chart {
+            background: #FAF8F3;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .flavor-bar {
+            margin: 1rem 0;
+        }
+        .flavor-bar-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+        .flavor-bar-fill-container {
+            background: #E8E8E8;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .flavor-bar-fill {
+            background: #2C5F2D;
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+        .subscription-toggle {
+            background: #FAF8F3;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .toggle-options {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .toggle-option {
+            flex: 1;
+            padding: 1rem;
+            border: 2px solid #E8E8E8;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .toggle-option.active {
+            border-color: #2C5F2D;
+            background: white;
+        }
+        .reviews-section {
+            max-width: 1400px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        .review-card {
+            border: 1px solid #E8E8E8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="announcement-bar">
+        FREE SHIPPING AUSTRALIA-WIDE ON ORDERS OVER $99
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="premium-home.html" class="logo">SERENDIPITY AUSTRALIA</a>
+            <ul class="nav-menu">
+                <li><a href="premium-shop.html">Shop</a></li>
+                <li><a href="premium-collection.html">Matcha</a></li>
+                <li><a href="premium-bundles.html">Bundles</a></li>
+                <li><a href="premium-about.html">Our Story</a></li>
+            </ul>
+            <div class="nav-right">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-icon">🛒</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="product-detail-grid">
+        <div class="product-gallery">
+            <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Haru Matcha">
+        </div>
+
+        <div class="product-details">
+            <span class="product-badge">Best Seller</span>
+            <h1 style="font-family: var(--font-serif); font-size: 3rem; margin: 1rem 0;">Haru</h1>
+            <p style="font-size: 1.25rem; color: #999; margin-bottom: 1rem;">First Harvest Ceremonial Matcha</p>
+            
+            <div class="product-rating">
+                <span class="product-stars">★★★★★</span>
+                <span class="product-review-count">(145 reviews)</span>
+            </div>
+
+            <p style="margin: 1.5rem 0; line-height: 1.8;">
+                Haru embodies the essence of spring's first harvest—delicate, sweet, and vibrant. 
+                Hand-picked from shade-grown tea gardens in Uji, Kyoto, each leaf is carefully selected 
+                during the premium shincha season. The result is a smooth, creamy matcha with natural 
+                sweetness and subtle umami depth.
+            </p>
+
+            <div class="flavor-profile-chart">
+                <h3 style="margin-bottom: 1.5rem;">Flavor Profile</h3>
+                
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label">
+                        <span>Sweetness</span>
+                        <span><strong>85%</strong></span>
+                    </div>
+                    <div class="flavor-bar-fill-container">
+                        <div class="flavor-bar-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label">
+                        <span>Creaminess</span>
+                        <span><strong>90%</strong></span>
+                    </div>
+                    <div class="flavor-bar-fill-container">
+                        <div class="flavor-bar-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label">
+                        <span>Umami</span>
+                        <span><strong>70%</strong></span>
+                    </div>
+                    <div class="flavor-bar-fill-container">
+                        <div class="flavor-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="flavor-bar">
+                    <div class="flavor-bar-label">
+                        <span>Bitterness</span>
+                        <span><strong>15%</strong></span>
+                    </div>
+                    <div class="flavor-bar-fill-container">
+                        <div class="flavor-bar-fill" style="width: 15%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subscription-toggle">
+                <h4 style="margin-bottom: 1rem;">Purchase Options</h4>
+                <div class="toggle-options">
+                    <div class="toggle-option active">
+                        <div style="font-weight: 600;">One-Time Purchase</div>
+                        <div style="font-size: 1.5rem; margin: 0.5rem 0; font-family: var(--font-serif);">$55.00</div>
+                    </div>
+                    <div class="toggle-option">
+                        <div style="font-weight: 600;">Subscribe & Save 15%</div>
+                        <div style="font-size: 1.5rem; margin: 0.5rem 0; font-family: var(--font-serif); color: #2C5F2D;">$46.75</div>
+                        <div style="font-size: 0.75rem; color: #999;">Delivered every 4 weeks</div>
+                    </div>
+                </div>
+                <p style="font-size: 0.875rem; color: #666; margin-top: 1rem;">
+                    ✓ Free shipping on subscriptions • ✓ Pause or cancel anytime • ✓ Always fresh
+                </p>
+            </div>
+
+            <button class="btn btn-primary" style="width: 100%; padding: 1.25rem; margin-bottom: 1rem;">Add to Cart - $55.00</button>
+            <button class="btn btn-secondary" style="width: 100%; padding: 1.25rem;">Add to Wishlist</button>
+
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #E8E8E8;">
+                <h4>Product Details</h4>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="padding: 0.5rem 0;">✓ <strong>Origin:</strong> Uji, Kyoto, Japan</li>
+                    <li style="padding: 0.5rem 0;">✓ <strong>Cultivar:</strong> Yabukita & Saemidori blend</li>
+                    <li style="padding: 0.5rem 0;">✓ <strong>Harvest:</strong> First harvest (Shincha)</li>
+                    <li style="padding: 0.5rem 0;">✓ <strong>Grade:</strong> Ceremonial</li>
+                    <li style="padding: 0.5rem 0;">✓ <strong>Weight:</strong> 30g tin (30 servings)</li>
+                    <li style="padding: 0.5rem 0;">✓ <strong>Best for:</strong> Traditional whisking, lattes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews-section">
+        <h2 style="font-family: var(--font-serif); text-align: center; margin-bottom: 2rem;">Customer Reviews</h2>
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <div class="product-stars" style="font-size: 2rem; color: #D4AF37;">★★★★★</div>
+            <p style="font-size: 1.25rem; margin-top: 0.5rem;">4.9 out of 5 (145 reviews)</p>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <div>
+                    <span class="product-stars">★★★★★</span>
+                    <strong style="margin-left: 0.5rem;">Sarah M.</strong>
+                </div>
+                <span style="color: #999; font-size: 0.875rem;">2 weeks ago</span>
+            </div>
+            <p><strong>Absolutely stunning quality</strong></p>
+            <p style="color: #666; line-height: 1.7;">
+                This is by far the best matcha I've tried in Australia. The color is vibrant,  
+                the taste is smooth with no bitterness, and it froths beautifully. Worth every penny!
+            </p>
+        </div>
+
+        <div class="review-card">
+            <div class="review-header">
+                <div>
+                    <span class="product-stars">★★★★★</span>
+                    <strong style="margin-left: 0.5rem;">James T.</strong>
+                </div>
+                <span style="color: #999; font-size: 0.875rem;">1 month ago</span>
+            </div>
+            <p><strong>Perfect for lattes</strong></p>
+            <p style="color: #666; line-height: 1.7;">
+                I was skeptical about paying this much for matcha, but Haru converted me. 
+                The creaminess is unreal in oat milk lattes. Subscription is the way to go!
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="premium-shop.html">All Products</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Serendipity Australia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
