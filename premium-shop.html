@@ -3,16 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shop premium ceremonial matcha from Uji, Japan. Hand-picked, stone-milled perfection.">
-    <title>Shop | Serendipity Australia</title>
+    <meta name="description" content="Shop premium ceremonial matcha from Japan's finest tea producers. 12+ brands, 100+ products.">
+    <title>Shop Premium Matcha | Serendipity Australia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/premium-styles.css">
+    <style>
+        .brand-section {
+            margin-bottom: 4rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid #E5E7EB;
+        }
+        .brand-header {
+            margin-bottom: 2rem;
+        }
+        .brand-name {
+            font-family: 'Crimson Pro', serif;
+            font-size: 2rem;
+            color: #2C5F2D;
+            margin-bottom: 0.5rem;
+        }
+        .brand-heritage {
+            color: #6B7280;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+        .filter-bar {
+            background: #F9FAFB;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .filter-label {
+            font-weight: 600;
+            color: #374151;
+        }
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid #D1D5DB;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #2C5F2D;
+            color: white;
+            border-color: #2C5F2D;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+    </style>
 </head>
 <body>
     <div class="announcement-bar">
-        FREE SHIPPING AUSTRALIA-WIDE ON ORDERS OVER $99 | NEW: SUBSCRIBE & SAVE 15%
+        FREE SHIPPING AUSTRALIA-WIDE ON ORDERS OVER $50 | 12+ PREMIUM JAPANESE TEA PRODUCERS
     </div>
 
     <header class="header">
@@ -36,138 +90,326 @@
 
     <section class="page-hero">
         <div class="container">
-            <h1 class="page-title">Shop All Matcha</h1>
+            <h1 class="page-title">Shop Premium Japanese Matcha</h1>
             <p class="page-description">
-                Premium ceremonial-grade matcha from Uji, Kyoto. Every tin is hand-picked during first harvest and stone-milled to perfection.
+                100+ authentic ceremonial & culinary matcha from Japan's most prestigious tea producers.<br>
+                Direct from Uji, Kyoto & Nishio, Aichi.
             </p>
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
+    <div class="container" style="padding: 3rem 1rem;">
 
-                <!-- Product 1: Haru -->
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <span class="filter-label">Shop by:</span>
+            <button class="filter-btn active" data-filter="all">All Brands</button>
+            <button class="filter-btn" data-filter="ceremonial">Ceremonial Grade</button>
+            <button class="filter-btn" data-filter="culinary">Culinary Grade</button>
+            <button class="filter-btn" data-filter="seren">Seren Matcha</button>
+        </div>
+
+        <!-- SEREN MATCHA (Featured) -->
+        <section class="brand-section">
+            <div class="brand-header">
+                <h2 class="brand-name">🌸 Seren Matcha</h2>
+                <p class="brand-heritage">Our signature blend - The Third Wave of Matcha | Uji, Kyoto</p>
+            </div>
+            <div class="product-grid">
+
                 <div class="product-card">
                     <span class="product-badge">Best Seller</span>
                     <div class="product-image-container">
                         <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Haru" class="product-image">
                     </div>
                     <div class="product-info">
-                        <h3 class="product-name">Haru</h3>
-                        <p class="product-type">First Harvest Ceremonial Matcha</p>
-                        <p class="product-description">Smooth, creamy sweetness with subtle umami.</p>
+                        <h3 class="product-name">Haru (春)</h3>
+                        <p class="product-type">First Harvest Ceremonial - 30g</p>
+                        <p class="product-description">Sweet, creamy, umami-rich. Hand-picked first harvest, shade-grown 29 days, stone-milled.</p>
                         <div class="product-flavor-tags">
                             <span class="flavor-tag">Sweet</span>
                             <span class="flavor-tag">Creamy</span>
+                            <span class="flavor-tag">Umami</span>
                         </div>
                         <div class="product-rating">
                             <span class="product-stars">★★★★★</span>
                             <span class="product-review-count">(145)</span>
                         </div>
-                        <div class="product-subscription">
-                            <p class="product-subscription-text">🔄 Subscribe & Save 15%</p>
-                        </div>
                         <div class="product-price-container">
                             <span class="product-price">$55.00</span>
                         </div>
                         <div class="product-actions">
-                            <a href="premium-product-haru.html" class="btn btn-primary btn-add-cart">View Details</a>
+                            <a href="premium-product-haru.html" class="btn btn-primary">View Details</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 2: Natsu -->
                 <div class="product-card">
+                    <span class="product-badge">20% Off</span>
                     <div class="product-image-container">
-                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Natsu" class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Matcha Ritual Set" class="product-image">
                     </div>
                     <div class="product-info">
-                        <h3 class="product-name">Natsu</h3>
-                        <p class="product-type">First Harvest Ceremonial Matcha</p>
-                        <p class="product-description">Bold, vibrant flavor with bright vegetal notes.</p>
-                        <div class="product-flavor-tags">
-                            <span class="flavor-tag">Bold</span>
-                            <span class="flavor-tag">Vegetal</span>
-                        </div>
-                        <div class="product-rating">
-                            <span class="product-stars">★★★★★</span>
-                            <span class="product-review-count">(89)</span>
-                        </div>
-                        <div class="product-subscription">
-                            <p class="product-subscription-text">🔄 Subscribe & Save 15%</p>
-                        </div>
+                        <h3 class="product-name">Matcha Ritual Set</h3>
+                        <p class="product-type">Haru 30g + Whisk + Spoon</p>
+                        <p class="product-description">Complete matcha starter set with handcrafted bamboo whisk and stainless steel spoon.</p>
                         <div class="product-price-container">
-                            <span class="product-price">$52.00</span>
+                            <span class="product-price-old">$114.99</span>
+                            <span class="product-price">$91.99</span>
                         </div>
                         <div class="product-actions">
-                            <button class="btn btn-primary btn-add-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 3: Aki -->
-                <div class="product-card">
-                    <span class="product-badge">New</span>
-                    <div class="product-image-container">
-                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Aki" class="product-image">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Aki</h3>
-                        <p class="product-type">First Harvest Ceremonial Matcha</p>
-                        <p class="product-description">Rich umami depth with smooth finish.</p>
-                        <div class="product-flavor-tags">
-                            <span class="flavor-tag">Umami</span>
-                            <span class="flavor-tag">Rich</span>
-                        </div>
-                        <div class="product-rating">
-                            <span class="product-stars">★★★★★</span>
-                            <span class="product-review-count">(67)</span>
-                        </div>
-                        <div class="product-subscription">
-                            <p class="product-subscription-text">🔄 Subscribe & Save 15%</p>
-                        </div>
-                        <div class="product-price-container">
-                            <span class="product-price">$58.00</span>
-                        </div>
-                        <div class="product-actions">
-                            <button class="btn btn-primary btn-add-cart">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 4: Culinary Matcha -->
-                <div class="product-card">
-                    <div class="product-image-container">
-                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Culinary Matcha" class="product-image">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Culinary Matcha</h3>
-                        <p class="product-type">Premium Grade for Lattes & Baking</p>
-                        <p class="product-description">Perfect for lattes, smoothies, and baking.</p>
-                        <div class="product-flavor-tags">
-                            <span class="flavor-tag">Versatile</span>
-                            <span class="flavor-tag">Strong</span>
-                        </div>
-                        <div class="product-rating">
-                            <span class="product-stars">★★★★☆</span>
-                            <span class="product-review-count">(112)</span>
-                        </div>
-                        <div class="product-subscription">
-                            <p class="product-subscription-text">🔄 Subscribe & Save 15%</p>
-                        </div>
-                        <div class="product-price-container">
-                            <span class="product-price">$38.00</span>
-                        </div>
-                        <div class="product-actions">
-                            <button class="btn btn-primary btn-add-cart">Add to Cart</button>
+                            <button class="btn btn-primary">Add to Cart</button>
                         </div>
                     </div>
                 </div>
 
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- MARUKYU KOYAMAEN -->
+        <section class="brand-section">
+            <div class="brand-header">
+                <h2 class="brand-name">Marukyu Koyamaen (丸久小山園)</h2>
+                <p class="brand-heritage">Founded 1688-1704 | National Tea Competition Winner | Uji, Kyoto</p>
+            </div>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <span class="product-badge">Award Winner</span>
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Tenju" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tenju (天授)</h3>
+                        <p class="product-type">Flagship Ceremonial - 20g, 40g</p>
+                        <p class="product-description">"Heavenly Gift" - National Tea Competition winner, top-tier ceremonial matcha.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">From $60.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Choan" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Choan</h3>
+                        <p class="product-type">Top-tier Ceremonial - 20g, 40g</p>
+                        <p class="product-description">Premium ceremonial with exceptional depth and complexity.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">$82.00 - $134.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Yugen" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Yugen (玄々)</h3>
+                        <p class="product-type">Premium Ceremonial - 40g</p>
+                        <p class="product-description">Fresh, nutty flavour with lingering sweetness.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">$75.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Aoarashi" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aoarashi (青嵐)</h3>
+                        <p class="product-type">Premium Ceremonial - 40g</p>
+                        <p class="product-description">Premium ceremonial for traditional tea ceremonies.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">A$42.99</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Rindo" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Rindo</h3>
+                        <p class="product-type">Culinary Grade - 100g-1kg</p>
+                        <p class="product-description">Versatile culinary matcha for lattes, baking, and smoothies.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">$43.00 - $204.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Sweetened Matcha" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sweetened Matcha Powder</h3>
+                        <p class="product-type">Milk Matcha - 200g</p>
+                        <p class="product-description">Perfect for matcha lattes - pre-sweetened blend.</p>
+                        <div class="product-price-container">
+                            <span class="product-price-old">$35.00</span>
+                            <span class="product-price">$32.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="btn btn-secondary">View All Marukyu Koyamaen (13 more products)</a>
+            </div>
+        </section>
+
+        <!-- IPPODO TEA -->
+        <section class="brand-section">
+            <div class="brand-header">
+                <h2 class="brand-name">Ippodo Tea (一保堂茶舗)</h2>
+                <p class="brand-heritage">Founded 1717 | 300+ Years of Excellence | Kyoto</p>
+            </div>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Kuon" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Kuon (久遠)</h3>
+                        <p class="product-type">High Class Ceremonial - 20g</p>
+                        <p class="product-description">Velvety smooth texture, rich umami, delicate sweetness.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">$64.00</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Wakaki" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Wakaki (若木)</h3>
+                        <p class="product-type">Ceremonial Grade - 40g</p>
+                        <p class="product-description">Light and sharp with vibrant character.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">A$64.99</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://cdn.shopify.com/s/files/1/0578/0665/4154/files/Rocky_s-Oct-2024-Photo-7.1-NEW-0000-01-min.png" alt="Shimizu" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Shimizu (Uji-Shimizu)</h3>
+                        <p class="product-type">Sweetened Blend - 400g</p>
+                        <p class="product-description">Classic green tea with refreshing sweetness and granulated sugar.</p>
+                        <div class="product-price-container">
+                            <span class="product-price">A$39.99</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="btn btn-secondary">View All Ippodo Tea (7 more products)</a>
+            </div>
+        </section>
+
+        <!-- BRAND OVERVIEW -->
+        <section class="brand-section">
+            <div class="brand-header">
+                <h2 class="brand-name">Explore More Brands</h2>
+                <p class="brand-heritage">10+ additional premium Japanese tea producers</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Yamamasa Koyamaen</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">300+ Years | Uji, Kyoto</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">8 products including Samidori, Hojicha</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Kanbayashi Shunsho</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">450+ Years | Uji, Kyoto</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">11 ceremonial products</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Horii Shichimeien</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">400+ Years | Uji</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">4 ceremonial products</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Hekisuien</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">Founded 1865 | Uji</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">5 ceremonial products</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Hokoen Matcha</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">150+ Years | Uji</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">4 ceremonial products</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+                <div style="border: 1px solid #E5E7EB; border-radius: 8px; padding: 1.5rem; text-align: center;">
+                    <h4 style="font-family: 'Crimson Pro', serif; color: #2C5F2D; margin-bottom: 0.5rem;">Ito En</h4>
+                    <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 1rem;">Est. 1966 | Japan</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">3 ceremonial products</p>
+                    <a href="#" class="btn btn-secondary" style="font-size: 0.9rem;">View Collection</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section style="background: linear-gradient(135deg, #2C5F2D 0%, #1A3A1B 100%); padding: 3rem 2rem; border-radius: 12px; text-align: center; color: white; margin-top: 3rem;">
+            <h2 style="font-family: 'Crimson Pro', serif; font-size: 2rem; margin-bottom: 1rem;">Can't Decide?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Take our matcha quiz to find your perfect match</p>
+            <a href="#" class="btn" style="background: white; color: #2C5F2D; padding: 0.75rem 2rem; font-weight: 600;">Take the Quiz →</a>
+        </section>
+
+    </div>
 
     <footer class="footer">
         <div class="footer-content">
@@ -176,6 +418,16 @@
                 <ul>
                     <li><a href="premium-shop.html">All Products</a></li>
                     <li><a href="premium-bundles.html">Starter Kits</a></li>
+                    <li><a href="premium-subscription.html">Subscribe & Save</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Brands</h4>
+                <ul>
+                    <li><a href="#">Seren Matcha</a></li>
+                    <li><a href="#">Marukyu Koyamaen</a></li>
+                    <li><a href="#">Ippodo Tea</a></li>
+                    <li><a href="#">View All 12 Brands</a></li>
                 </ul>
             </div>
             <div class="footer-column">
