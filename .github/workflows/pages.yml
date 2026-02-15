@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ claude/matcha-ecommerce-site-Oe2ro ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
