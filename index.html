@@ -4,66 +4,447 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seren Matcha | The Third Wave of Matcha in Australia</title>
-    <meta name="description" content="Ceremonial-grade matcha from Uji, Kyoto. Thoughtfully crafted for modern Australian life. Trusted by 15k+ matcha lovers and partnered with 4 universities.">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #465c29;
+            --color-primary-dark: #253f20;
+            --color-accent: #ba6d38;
+            --color-accent-light: #ce8655;
+            --color-secondary: #fffee9;
+            --color-text: #131718;
+            --color-text-light: #465c29;
+            --color-border: #dda37c;
+            --color-bg: #fffee9;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--color-text); line-height: 1.6; background: var(--color-bg); }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; }
+        
+        .announcement-bar {
+            background: var(--color-primary-dark);
+            color: var(--color-secondary);
+            padding: 0.75rem 0;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+        
+        .nav {
+            background: var(--color-bg);
+            border-bottom: 2px solid var(--color-border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.5rem 2rem;
+        }
+        
+        .nav-logo a {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-decoration: none;
+            color: var(--color-primary-dark);
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+        
+        .nav-menu a {
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: var(--color-text-light);
+            transition: all 0.3s;
+        }
+        
+        .nav-menu a:hover {
+            color: var(--color-accent);
+        }
+        
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            padding: 6rem 0;
+            min-height: 85vh;
+        }
+        
+        .hero-label {
+            display: inline-block;
+            font-size: 0.8125rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .hero-title {
+            font-family: 'Crimson Pro', serif;
+            font-size: 5rem;
+            font-weight: 400;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            color: var(--color-primary-dark);
+        }
+        
+        .hero-description {
+            font-size: 1.25rem;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            max-width: 500px;
+            line-height: 1.8;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1.25rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+            border-radius: 4px;
+            transition: all 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: var(--color-primary-dark);
+            color: var(--color-secondary);
+        }
+        
+        .btn-primary:hover {
+            background: var(--color-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(37, 63, 32, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-primary-dark);
+            border: 2px solid var(--color-primary-dark);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--color-primary-dark);
+            color: var(--color-secondary);
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .hero-social-proof {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            font-size: 0.9375rem;
+            color: var(--color-text-light);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(70, 92, 41, 0.15);
+        }
+        
+        .featured-collection {
+            padding: 6rem 0;
+            background: #fff;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .section-header h2 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            color: var(--color-primary-dark);
+        }
+        
+        .section-header p {
+            font-size: 1.25rem;
+            color: var(--color-text-light);
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+        }
+        
+        .product-card {
+            background: var(--color-bg);
+            border: 2px solid var(--color-border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(70, 92, 41, 0.15);
+            border-color: var(--color-accent);
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            z-index: 10;
+        }
+        
+        .product-badge-bestseller {
+            background: var(--color-accent);
+            color: white;
+        }
+        
+        .product-badge-new {
+            background: var(--color-primary-dark);
+            color: var(--color-secondary);
+        }
+        
+        .product-image {
+            aspect-ratio: 1;
+            background: #fff;
+            overflow: hidden;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 2rem;
+        }
+        
+        .product-name {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-primary-dark);
+        }
+        
+        .product-subtitle {
+            font-size: 1rem;
+            color: var(--color-text-light);
+            margin-bottom: 1rem;
+        }
+        
+        .product-flavor-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        
+        .flavor-tag {
+            padding: 0.375rem 1rem;
+            background: white;
+            border: 1.5px solid var(--color-border);
+            border-radius: 20px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--color-text-light);
+        }
+        
+        .product-description {
+            font-size: 0.9375rem;
+            color: var(--color-text-light);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .product-price {
+            margin-bottom: 1.5rem;
+        }
+        
+        .price-current {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-primary-dark);
+        }
+        
+        .story {
+            padding: 6rem 0;
+            background: var(--color-bg);
+        }
+        
+        .story-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .section-label {
+            display: block;
+            font-size: 0.875rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .story-content h2 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            color: var(--color-primary-dark);
+        }
+        
+        .story-intro {
+            font-size: 1.75rem;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        
+        .story-content p {
+            font-size: 1.125rem;
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            color: var(--color-text-light);
+        }
+        
+        .footer {
+            background: var(--color-primary-dark);
+            color: var(--color-secondary);
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-col h4 {
+            font-size: 1.125rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .footer-col p {
+            color: rgba(255, 254, 233, 0.8);
+            line-height: 1.7;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .footer-col a {
+            color: rgba(255, 254, 233, 0.8);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .footer-col a:hover {
+            color: var(--color-accent-light);
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 254, 233, 0.2);
+            font-size: 0.875rem;
+            color: rgba(255, 254, 233, 0.7);
+        }
+        
+        @media (max-width: 1024px) {
+            .hero { grid-template-columns: 1fr; text-align: center; }
+            .hero-content { max-width: 600px; margin: 0 auto; }
+            .hero-cta { justify-content: center; }
+            .hero-social-proof { justify-content: center; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-menu { display: none; }
+            .hero-title { font-size: 3rem; }
+            .section-header h2 { font-size: 2.5rem; }
+            .product-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
+        }
+    </style>
 </head>
 <body>
-    <!-- Announcement Bar -->
     <div class="announcement-bar">
         <div class="container">
-            <p>🎉 <strong>New Launch:</strong> Hikari Ceremonial Matcha now available | Free shipping on orders $99+ | 15% off first subscription order</p>
+            <p>🎉 <strong>New Launch:</strong> Hikari Ceremonial Matcha | Free shipping $99+ | 15% off first subscription</p>
         </div>
     </div>
 
-    <!-- Navigation -->
     <nav class="nav">
         <div class="container nav-container">
-            <div class="nav-logo">
-                <a href="/">SEREN MATCHA</a>
-            </div>
+            <div class="nav-logo"><a href="/">SEREN MATCHA</a></div>
             <ul class="nav-menu">
                 <li><a href="#collection">Collection</a></li>
-                <li><a href="#limited-edition">Limited Edition</a></li>
-                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#story">Our Story</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#curated-brands">Curated Brands</a></li>
-                <li><a href="#wholesale">Wholesale</a></li>
             </ul>
-            <div class="nav-actions">
-                <button class="nav-search">Search</button>
-                <button class="nav-cart">Cart (0)</button>
-            </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <span class="hero-label">THE THIRD WAVE OF MATCHA</span>
-            <h1 class="hero-title">Matcha Crafted<br>For Modern Life</h1>
-            <p class="hero-description">Ceremonial-grade matcha from Uji, Kyoto. Hand-picked, stone-milled, and designed for everyday Australian rituals. No pretension, just quality.</p>
-            <div class="hero-cta">
-                <a href="#collection" class="btn btn-primary">Shop Seren Matcha</a>
-                <a href="#quiz" class="btn btn-secondary">Find Your Match</a>
+        <div class="container" style="grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+            <div class="hero-content">
+                <span class="hero-label">THE THIRD WAVE OF MATCHA</span>
+                <h1 class="hero-title">Matcha Crafted<br>For Modern Life</h1>
+                <p class="hero-description">Ceremonial-grade matcha from Uji, Kyoto. Hand-picked, stone-milled, and designed for everyday Australian rituals. No pretension, just quality.</p>
+                <div class="hero-cta">
+                    <a href="#collection" class="btn btn-primary">Shop Seren Matcha</a>
+                    <a href="#" class="btn btn-secondary">Find Your Match</a>
+                </div>
+                <div class="hero-social-proof">
+                    <span>✨ 15,000+ matcha lovers</span>
+                    <span>🎓 4 university partners</span>
+                    <span>📦 350+ tins sold</span>
+                </div>
             </div>
-            <div class="hero-social-proof">
-                <span>✨ 15,000+ matcha lovers</span>
-                <span>🎓 Partnered with 4 universities</span>
-                <span>📦 350+ tins sold in weeks</span>
-            </div>
-        </div>
-        <div class="hero-image">
-            <!-- Placeholder for hero image -->
-            <div class="hero-img-placeholder">
-                [Hero image: Minimal matcha bowl, whisk, and tin on clean white surface]
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800&h=1000&fit=crop" alt="Matcha bowl and whisk">
             </div>
         </div>
     </section>
 
-    <!-- Featured Collection -->
     <section class="featured-collection" id="collection">
         <div class="container">
             <div class="section-header">
@@ -72,11 +453,10 @@
             </div>
             
             <div class="product-grid">
-                <!-- Haru -->
                 <div class="product-card">
                     <div class="product-badge product-badge-bestseller">BEST SELLER</div>
                     <div class="product-image">
-                        <div class="product-img-placeholder">[Haru tin photo]</div>
+                        <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=500&h=500&fit=crop" alt="Haru Matcha">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Haru</h3>
@@ -90,18 +470,14 @@
                         <div class="product-price">
                             <span class="price-current">$55.00 AUD</span>
                         </div>
-                        <div class="product-actions">
-                            <button class="btn btn-primary btn-full">Add to Cart</button>
-                            <button class="btn btn-secondary btn-subscribe">Subscribe & Save 15%</button>
-                        </div>
+                        <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
                     </div>
                 </div>
 
-                <!-- Hikari -->
                 <div class="product-card">
                     <div class="product-badge product-badge-new">NEW LAUNCH</div>
                     <div class="product-image">
-                        <div class="product-img-placeholder">[Hikari tin photo]</div>
+                        <img src="https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=500&h=500&fit=crop" alt="Hikari Matcha">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Hikari</h3>
@@ -111,22 +487,18 @@
                             <span class="flavor-tag">Umami</span>
                             <span class="flavor-tag">Floral</span>
                         </div>
-                        <p class="product-description">Rich umami layered with green pea sweetness. Okumidori & Yabukita, 20+ days shade-grown. Bold yet refined.</p>
+                        <p class="product-description">Rich umami layered with green pea sweetness. Okumidori & Yabukita, 20+ days shade-grown.</p>
                         <div class="product-price">
                             <span class="price-current">$60.00 AUD</span>
                         </div>
-                        <div class="product-actions">
-                            <button class="btn btn-primary btn-full">Add to Cart</button>
-                            <button class="btn btn-secondary btn-subscribe">Subscribe & Save 15%</button>
-                        </div>
+                        <button class="btn btn-primary" style="width: 100%;">Add to Cart</button>
                     </div>
                 </div>
 
-                <!-- Mie (Coming Soon) -->
-                <div class="product-card product-coming-soon">
-                    <div class="product-badge product-badge-soon">COMING SOON</div>
+                <div class="product-card" style="opacity: 0.85;">
+                    <div class="product-badge" style="background: #704121; color: white;">COMING SOON</div>
                     <div class="product-image">
-                        <div class="product-img-placeholder">[Mie tin photo]</div>
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&h=500&fit=crop" alt="Mie Matcha">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Mie</h3>
@@ -134,24 +506,20 @@
                         <div class="product-flavor-tags">
                             <span class="flavor-tag">Smooth</span>
                             <span class="flavor-tag">Nutty</span>
-                            <span class="flavor-tag">Everyday</span>
                         </div>
-                        <p class="product-description">Our everyday matcha. Smooth, approachable, and latte-friendly. Perfect for your morning ritual.</p>
+                        <p class="product-description">Our everyday matcha. Smooth, approachable, latte-friendly.</p>
                         <div class="product-price">
                             <span class="price-current">$48.00 AUD</span>
                         </div>
-                        <div class="product-actions">
-                            <button class="btn btn-waitlist btn-full">Join Waitlist</button>
-                        </div>
-                        <p class="waitlist-count">🔔 1,200 people on waitlist</p>
+                        <button class="btn btn-secondary" style="width: 100%;">Join Waitlist</button>
+                        <p style="text-align: center; margin-top: 0.75rem; font-size: 0.875rem; color: var(--color-text-light);">🔔 1,200 on waitlist</p>
                     </div>
                 </div>
 
-                <!-- Akari (Coming Soon) -->
-                <div class="product-card product-coming-soon">
-                    <div class="product-badge product-badge-soon">COMING SOON</div>
+                <div class="product-card" style="opacity: 0.85;">
+                    <div class="product-badge" style="background: #704121; color: white;">COMING SOON</div>
                     <div class="product-image">
-                        <div class="product-img-placeholder">[Akari tin photo]</div>
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&h=500&fit=crop&sat=-50" alt="Akari Matcha">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Akari</h3>
@@ -159,255 +527,51 @@
                         <div class="product-flavor-tags">
                             <span class="flavor-tag">Complex</span>
                             <span class="flavor-tag">Premium</span>
-                            <span class="flavor-tag">Limited</span>
                         </div>
-                        <p class="product-description">Our most expressive blend. Single cultivar Asahi from award-winning Uji producers. Limited annual release.</p>
+                        <p class="product-description">Our most expressive blend. Single cultivar Asahi from Uji.</p>
                         <div class="product-price">
                             <span class="price-current">$75.00 AUD</span>
                         </div>
-                        <div class="product-actions">
-                            <button class="btn btn-waitlist btn-full">Join Waitlist</button>
-                        </div>
+                        <button class="btn btn-secondary" style="width: 100%;">Join Waitlist</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Limited Edition Section -->
-    <section class="limited-edition" id="limited-edition">
-        <div class="container">
-            <div class="limited-banner">
-                <div class="limited-content">
-                    <span class="limited-label">MEMORIES OF SUMMER 2026</span>
-                    <h2>Natsu Limited Release</h2>
-                    <p>Our first seasonal matcha, crafted from the second harvest's finest leaves. Lighter, more refreshing - capturing the essence of Australian summer mornings.</p>
-                    <div class="limited-timer">
-                        <span class="timer-label">Available for:</span>
-                        <div class="timer">
-                            <div class="timer-unit"><span class="timer-value">23</span><span class="timer-label-small">days</span></div>
-                            <div class="timer-unit"><span class="timer-value">14</span><span class="timer-label-small">hours</span></div>
-                            <div class="timer-unit"><span class="timer-value">32</span><span class="timer-label-small">mins</span></div>
-                        </div>
-                    </div>
-                    <div class="limited-cta">
-                        <a href="#" class="btn btn-primary">Pre-Order Now - $62 AUD</a>
-                        <p class="limited-stock">⚡ Only 150 tins available</p>
-                    </div>
-                </div>
-                <div class="limited-image">
-                    <div class="limited-img-placeholder">[Natsu limited edition tin with summer aesthetic]</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Starter Kits -->
-    <section class="starter-kits">
-        <div class="container">
-            <div class="section-header">
-                <h2>Start Your Matcha Journey</h2>
-                <p>Everything you need, thoughtfully bundled</p>
-            </div>
-            
-            <div class="kits-grid">
-                <div class="kit-card">
-                    <div class="kit-image">
-                        <div class="kit-img-placeholder">[Essentials kit photo]</div>
-                    </div>
-                    <h3>The Essentials</h3>
-                    <p class="kit-includes">Haru 30g • Bamboo Whisk • Measuring Spoon • Sifter</p>
-                    <div class="kit-pricing">
-                        <span class="kit-price-was">$95 value</span>
-                        <span class="kit-price-now">$85 AUD</span>
-                        <span class="kit-save">Save $10</span>
-                    </div>
-                    <button class="btn btn-primary btn-full">Add to Cart</button>
-                </div>
-
-                <div class="kit-card kit-featured">
-                    <div class="kit-badge">MOST POPULAR</div>
-                    <div class="kit-image">
-                        <div class="kit-img-placeholder">[Complete kit photo]</div>
-                    </div>
-                    <h3>The Complete Ritual</h3>
-                    <p class="kit-includes">Haru 30g • Hikari 30g • Ceramic Bowl • Bamboo Whisk • Stand • Scoop • Sifter</p>
-                    <div class="kit-pricing">
-                        <span class="kit-price-was">$165 value</span>
-                        <span class="kit-price-now">$139 AUD</span>
-                        <span class="kit-save">Save $26</span>
-                    </div>
-                    <button class="btn btn-primary btn-full">Add to Cart</button>
-                </div>
-
-                <div class="kit-card">
-                    <div class="kit-image">
-                        <div class="kit-img-placeholder">[Gift set photo]</div>
-                    </div>
-                    <h3>The Gift Set</h3>
-                    <p class="kit-includes">Hikari 30g • Premium Whisk • Ceramic Bowl • Gift Box</p>
-                    <div class="kit-pricing">
-                        <span class="kit-price-was">$120 value</span>
-                        <span class="kit-price-now">$105 AUD</span>
-                        <span class="kit-save">Save $15</span>
-                    </div>
-                    <button class="btn btn-primary btn-full">Add to Cart</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Educational Section -->
-    <section class="education" id="education">
-        <div class="container">
-            <div class="education-content">
-                <div class="education-text">
-                    <span class="section-label">PARTNERED WITH 4 UNIVERSITIES</span>
-                    <h2>Matcha Education<br>That Matters</h2>
-                    <p>We're working with universities across Australia to bring matcha education to students. From chemistry to culture, sustainability to ceremony - we believe understanding matcha makes it better.</p>
-                    <ul class="education-list">
-                        <li>✓ University campus partnerships across 4 Australian institutions</li>
-                        <li>✓ Free matcha workshops and tasting sessions</li>
-                        <li>✓ Research collaboration on health benefits</li>
-                        <li>✓ Student discount program</li>
-                    </ul>
-                    <div class="education-cta">
-                        <a href="#" class="btn btn-secondary">Learn More</a>
-                        <a href="#" class="link">University Partner Program →</a>
-                    </div>
-                </div>
-                <div class="education-image">
-                    <div class="education-img-placeholder">[University partnership photo/workshop]</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Story -->
-    <section class="story" id="our-story">
+    <section class="story" id="story">
         <div class="container">
             <div class="story-content">
                 <span class="section-label">THE THIRD WAVE</span>
                 <h2>Why We Exist</h2>
                 <p class="story-intro">Coffee had its third wave. Now it's matcha's turn.</p>
                 <p>We believe matcha is more than just a trendy green drink. It's a ritual, a reset, a movement. Just like third-wave coffee reshaped café culture with quality and transparency, we're pioneering the third wave of matcha in Australia.</p>
-                <p>Our tencha leaves are sourced with care from small family-run farms in Uji, Kyoto - but they're made for here and now. For shelves in Sydney apartments, Melbourne cafés, Brisbane mornings, and everywhere in between.</p>
+                <p>Our tencha leaves are sourced with care from small family-run farms in Uji, Kyoto - but they're made for here and now. For shelves in Sydney apartments, Melbourne cafés, and everywhere in between.</p>
                 <p><strong>Clean design. Bold flavour. Tools that make the ritual effortless.</strong></p>
-                <p>Whether you're swapping coffee for calm focus or just curious to try something new, Seren makes matcha simple, modern, and part of everyday Australian life.</p>
-            </div>
-            <div class="story-stats">
-                <div class="stat">
-                    <span class="stat-number">15,000+</span>
-                    <span class="stat-label">Community Members</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">4</span>
-                    <span class="stat-label">University Partners</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">350+</span>
-                    <span class="stat-label">Tins Sold in Weeks</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">1,200+</span>
-                    <span class="stat-label">Waitlist Members</span>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Curated Brands -->
-    <section class="curated-brands" id="curated-brands">
-        <div class="container">
-            <div class="section-header">
-                <h2>Curated Collection</h2>
-                <p>Beyond Seren, we hand-select ceremonial matcha from Japan's most respected producers</p>
-            </div>
-            
-            <div class="brands-grid">
-                <div class="brand-card">
-                    <div class="brand-logo">[Marukyu Koyamaen logo]</div>
-                    <h3>Marukyu Koyamaen</h3>
-                    <p>Over 300 years of Uji heritage</p>
-                    <a href="#" class="brand-link">Shop Collection →</a>
-                </div>
-                <div class="brand-card">
-                    <div class="brand-logo">[Ippodo Tea logo]</div>
-                    <h3>Ippodo Tea</h3>
-                    <p>Since 1717, Kyoto's finest</p>
-                    <a href="#" class="brand-link">Shop Collection →</a>
-                </div>
-                <div class="brand-card">
-                    <div class="brand-logo">[Horii Shichimeien logo]</div>
-                    <h3>Horii Shichimeien</h3>
-                    <p>Premium Uji producers</p>
-                    <a href="#" class="brand-link">Shop Collection →</a>
-                </div>
-                <div class="brand-card">
-                    <div class="brand-logo">[Kanbayashi Shunsho logo]</div>
-                    <h3>Kanbayashi Shunsho</h3>
-                    <p>450+ years of tradition</p>
-                    <a href="#" class="brand-link">Shop Collection →</a>
-                </div>
-            </div>
-            <div class="brands-cta">
-                <a href="#" class="btn btn-secondary">Browse All Brands</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Instagram Feed -->
-    <section class="instagram-feed">
-        <div class="container">
-            <div class="section-header">
-                <h2>@serendipityaustralia</h2>
-                <p>Join 15k+ matcha lovers</p>
-            </div>
-            <div class="instagram-grid">
-                <div class="instagram-img">[IG post 1]</div>
-                <div class="instagram-img">[IG post 2]</div>
-                <div class="instagram-img">[IG post 3]</div>
-                <div class="instagram-img">[IG post 4]</div>
-                <div class="instagram-img">[IG post 5]</div>
-                <div class="instagram-img">[IG post 6]</div>
-            </div>
-            <div class="instagram-cta">
-                <a href="https://instagram.com/serendipityaustralia" class="btn btn-secondary" target="_blank">Follow on Instagram</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
                     <h4>Seren Matcha</h4>
                     <p>The third wave of matcha in Australia. Ceremonial-grade matcha from Uji, Kyoto, crafted for modern life.</p>
-                    <div class="footer-social">
-                        <a href="#">Instagram</a>
-                        <a href="#">TikTok</a>
-                        <a href="#">Email</a>
-                    </div>
                 </div>
                 <div class="footer-col">
                     <h4>Shop</h4>
                     <ul>
                         <li><a href="#">Seren Collection</a></li>
-                        <li><a href="#">Limited Editions</a></li>
                         <li><a href="#">Starter Kits</a></li>
-                        <li><a href="#">Curated Brands</a></li>
                         <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Gift Cards</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Learn</h4>
                     <ul>
                         <li><a href="#">Our Story</a></li>
-                        <li><a href="#">University Partnerships</a></li>
-                        <li><a href="#">How to Prepare Matcha</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">How to Prepare</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
@@ -415,15 +579,13 @@
                     <h4>Support</h4>
                     <ul>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Shipping & Returns</a></li>
-                        <li><a href="#">Wholesale Inquiry</a></li>
-                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Shipping</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Seren Matcha / Serendipity Australia. All rights reserved.</p>
-                <div class="footer-payment">
+                <p>&copy; 2026 Seren Matcha / Serendipity Australia</p>
+                <div style="display: flex; gap: 2rem;">
                     <span>Afterpay available</span>
                     <span>Free shipping $99+</span>
                 </div>
@@ -431,6 +593,14 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function(e) {
+                e.preventDefault();
+                const t = document.querySelector(this.getAttribute('href'));
+                if(t) t.scrollIntoView({behavior: 'smooth'});
+            });
+        });
+    </script>
 </body>
 </html>
