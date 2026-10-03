@@ -75,6 +75,8 @@ def main():
         ep = epochs[E]
         d = day(ep["ts"])
         rec = defaultdict(float)
+        for k0 in ("stake_before", "stake_after", "free_tao", "other_subnets_alpha", "owner_emissions", "validator_take", "staking_yield", "take_on_own_stake", "take_on_external_stake", "measured"):
+            rec[k0] = 0.0
         rec.update({"epoch_block": E, "date": d, "price_tau": price_by_day.get(d, ""), "tao_usd": usd.get(d, "")})
         owner_ck, owner_hk, oc_paid = ep["subnet_owner"], ep["subnet_owner_hotkey"], int(ep["owner_cut_paid_rao"])
         for p in pos.get(E, []):

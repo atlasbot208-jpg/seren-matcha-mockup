@@ -1,10 +1,30 @@
 [
  {
+  "month": "2026-08",
+  "epochs": 620.0,
+  "first_date": "2026-08-01",
+  "last_date": "2026-08-31",
+  "opening_stake": 0.0,
+  "closing_stake": 0.0,
+  "owner_emissions": 0.0,
+  "staking_yield": 0.0,
+  "validator_take": 0.0,
+  "take_on_own_stake": 0.0,
+  "take_on_external_stake": 0.0,
+  "total_income": 0.0,
+  "measured": 0.0,
+  "residual": 0.0,
+  "total_income_usd": 0.0,
+  "avg_alpha_usd": 2.1897513652735654,
+  "alpha_flows": 0.0,
+  "unexplained": 0.0
+ },
+ {
   "month": "2026-09",
-  "epochs": 470.0,
-  "first_date": "2026-09-07",
+  "epochs": 599.0,
+  "first_date": "2026-09-01",
   "last_date": "2026-09-30",
-  "opening_stake": 717805.4528855401,
+  "opening_stake": 0.0,
   "closing_stake": 750760.660473791,
   "owner_emissions": 30455.225402399814,
   "staking_yield": 10312.856730288635,
@@ -17,8 +37,8 @@
   "total_income_usd": 96368.16035310162,
   "alpha_flows": -9999.99999999,
   "other_flows": -0.001,
-  "avg_alpha_usd": 2.2468942327743675,
-  "unexplained": -7.958333299029619e-07
+  "avg_alpha_usd": 2.2187343114302003,
+  "unexplained": 717805.4528847443
  },
  {
   "month": "2026-10",
@@ -35,9 +55,9 @@
   "total_income": 4987.906111173603,
   "measured": 4987.906111065,
   "residual": -1.086028902363978e-07,
-  "total_income_usd": 9914.885252936378,
+  "total_income_usd": 9923.843663188773,
   "alpha_flows": 1e-09,
-  "avg_alpha_usd": 1.9880729974568223,
+  "avg_alpha_usd": 1.9898601711779238,
   "unexplained": -1.0860595614556223e-07
  }
 ]
