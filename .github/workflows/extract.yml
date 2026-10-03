@@ -30,9 +30,10 @@ jobs:
       - name: Extract
         continue-on-error: true
         run: |
-          ARGS=$(python -c "import json;print(json.load(open('run.json')).get('args',''))" 2>/dev/null || true)
-          echo "args: $ARGS"
-          timeout 19800 python sn25/extract.py $ARGS || echo "extract exited $?" >> data/raw/extract_log.txt
+          SCRIPT=$(python -c "import json;print(json.load(open('run.json')).get('script','extract.py'))")
+          ARGS=$(python -c "import json;print(json.load(open('run.json')).get('args',''))")
+          echo "script: $SCRIPT args: $ARGS"
+          timeout 19800 python sn25/$SCRIPT $ARGS || echo "$SCRIPT exited $?" >> data/raw/audit_log.txt
       - name: Commit data
         if: always()
         run: |
