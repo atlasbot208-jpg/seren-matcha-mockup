@@ -1,0 +1,10 @@
+{
+  "_comment": "Coldkeys whose SN25 positions and flows are tracked. Add JV treasury, distribution and team-payment wallets here with a label. Counterparties discovered in flows are reported in data/derived/counterparties.csv so they can be labelled and added.",
+  "netuid": 25,
+  "coldkeys": {
+    "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a": "SN25 owner coldkey"
+  },
+  "labels": {
+    "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG": "SN25 owner hotkey"
+  }
+}
