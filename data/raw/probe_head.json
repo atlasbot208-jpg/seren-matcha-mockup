@@ -1,0 +1,5757 @@
+{
+ "block": 9202726,
+ "ts": 1791035268000,
+ "subnet_owner": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+ "subnet_owner_hotkey": "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG",
+ "subnet_owner_cut_u16": 11796,
+ "owner_cut_enabled": true,
+ "owner_cut_auto_lock": false,
+ "recycle_or_burn": "Burn",
+ "tempo": 360,
+ "alpha_out_emission": 1000000000,
+ "miner_burned": {
+  "bits": 4294967296
+ },
+ "alpha_price_tau": 0.006736238,
+ "subnet_lease": null,
+ "owned_hotkeys": {
+  "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a": [
+   "5F6aRdsBHajN2NhZHBTB6ibBFu7YuZZEWruWzB8x6B6GiZ4D",
+   "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG"
+  ]
+ },
+ "positions": [
+  {
+   "coldkey": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "hotkey": "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG",
+   "netuid": 25,
+   "amount": 755232.905950579
+  },
+  {
+   "coldkey": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "hotkey": "5FYwKoHYfiuy9m2yM4wbwM5pQyaEP38MBTTZS8RwNKRuQ8mi",
+   "netuid": 25,
+   "amount": 419.259504876
+  },
+  {
+   "coldkey": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "hotkey": "FREE",
+   "netuid": -1,
+   "amount": 0.345727681
+  },
+  {
+   "coldkey": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "hotkey": "RESERVED",
+   "netuid": -1,
+   "amount": 0.0
+  }
+ ],
+ "neurons": [
+  {
+   "hotkey": "5G9nkeqfzy67webCafJx8JpizY1XYxzHVR2RKVRpuxJBhLAd",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 0,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG",
+   "coldkey": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "uid": 1,
+   "active": true,
+   "rank": 0,
+   "emission": 176517775509,
+   "incentive": 65535,
+   "consensus": 65535,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 12839,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+     774263677726061
+    ]
+   ]
+  },
+  {
+   "hotkey": "5H45rSuEpJUUEqwNHmqCmeBmwH4vBDgFGCgALvmJYCc9RQYE",
+   "coldkey": "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+   "uid": 2,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FEwpc3ip4FqCARtK1JGVfeigyZ5jDcdcUgoeo9ZcEMXktq9",
+   "coldkey": "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+   "uid": 3,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CXs2QKpTo67EDYQTeY3HdPANjvCMm4ETnNDBpX4Tjs9AqAH",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 4,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GNKdgVeZMAG4htU8z44MZ4zkgsrftANTSu15Jbo5ZfEVYSd",
+   "coldkey": "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+   "uid": 5,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FCsSwP2kCZD1d9mC6MQuYGJ2FmeB2tiQK44xJsZM2i1wDoL",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 6,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GdqSrYzf3NeZ69gPBLgQgbv8M3PjneTGs2AkqprXCjFvfJQ",
+   "coldkey": "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+   "uid": 7,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Fk3CeDxCLDTQsvGA39F1wkonQUnHVSWmChSkbqMrmNkXfxG",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 8,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F9JmUftw3pk4Fzd5TmA3kUJxwDFjXfEPnVDxQWqiratuX1Q",
+   "coldkey": "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+   "uid": 9,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CSNmNyC6mkxrab529YKMgkijGmrzgZrkzFuyzPbs4UEFVJu",
+   "coldkey": "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+   "uid": 10,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EnbFqepKmP6UNt9ykd8kvH9oNikvmkJjAP4MzDSjNPauGt1",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 11,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CcsTwuQcLrWS3ua4B9BeVMK2WJQ6VwBsHw1CgbkWuUYedGR",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 12,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GCH7UxUvqUno5cwh2VGa5iT3kvAzQpt5gYw7JnJMg2RNhFu",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 13,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CB8wRUzb2wg515oLrKbHpXYWRdnUwNx69TzZHWcjmvzYv5S",
+   "coldkey": "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+   "uid": 14,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EWMAa9e9GjKvZfBSCHzMEzAfJQiZzydd87YiyvVvcfpT5KZ",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 15,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EjeZBGRzBXTgLXMzafgFRkEepmnDw5eSx6U4nedwutkNQLm",
+   "coldkey": "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+   "uid": 16,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5D2cPRgG8iKzickSDDP5fwWCCiQa53KZU3qhjGeBJmDyXLGH",
+   "coldkey": "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+   "uid": 17,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HZFyrhhSBPTRZsHg54zn8Ym5DyS5QsZDNXjoQzkP5NUN3rM",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 18,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G9tmzkWtpQy2JMWLf9Aumiq2mnekPsugG5sgru3Hh6mgRi6",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 19,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5C53rKfGALsSQDQpa6To12oHWCRwRp8gzbkrQwBBRnEGHQGU",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 20,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F4e66u9pwUBz3Wqionevi7xSzgpBuFkKehFHAJNEiERJsT5",
+   "coldkey": "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+   "uid": 21,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GWbxqJjVTrwuGB6tSWj5Ljgt8cDnyjpzxb1aZPmRcbwyNs6",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 22,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FcB8xF6RPxRJDquKyye4nzxShK6BZwQ6yUgMCFBZFy8Gxv7",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 23,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CSm65H39YeiLwFDffVKjGGYfU2ihkqGuSM9SH4hcCZUsARS",
+   "coldkey": "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+   "uid": 24,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E1X8ohtEQLZXzfrRSs7vw5oRhfUyXMn3hMpbqJuuG5evpmR",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 25,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DXKQaANj385pMDvsBQGmyNvDNzajr5y55AF6pLDprk3vGw4",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 26,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DoaXwdTsEuAWQaEPLEoePJDE8Fw5TgX74mzCu95KXKwHgk6",
+   "coldkey": "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+   "uid": 27,
+   "active": true,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DezWFfbUbdbKV61tz1q1uGszAEVxXtAtPyCjngCosikeqZx",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 28,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GW48TPEQ8PEmifARDWpahNaZHzQZqm5yQkBiZ2Jpo3AFNFY",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 29,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EeGwW2xmKsH5k71u7Q5eTHTQztikjtMUo4WkcZtzZuhC6jr",
+   "coldkey": "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+   "uid": 30,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GZQ2eF6BmELzWWGhwaNSHNsa5qRuqFpTg1wz36SJLhw6MdK",
+   "coldkey": "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+   "uid": 31,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HTAkHu1pFeenDAvP3VBexA3SLMvWb1iMyNzv7UVkLot685K",
+   "coldkey": "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+   "uid": 32,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CQJLVWSdX8qvc1ZFmXQS2rNUTE7SMk9iSRXsz6eTVhxKPkT",
+   "coldkey": "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+   "uid": 33,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HdND1ijohuXKmu8VZjVpBRLT8h5KZgjuWKrZJSeEazSRju7",
+   "coldkey": "5CGKyNz3eoPCALaFN5FaHdsLxkWiXUkNqixr7ZQ2briuMEWF",
+   "uid": 34,
+   "active": true,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CGKyNz3eoPCALaFN5FaHdsLxkWiXUkNqixr7ZQ2briuMEWF",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Fq5SQB28egGiU6bPWPzSPsWHsTHXDfybMXvar2mM4MzA15A",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 35,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F1eU4CFh7MPktKb71EJUZFEcm37cF39gof6iZfcvRrr7eau",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 36,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CVMgct6V4Pom5C9D7jbfxethZkQnhmBgqE8d5md3E53yhdj",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 37,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F2795zDduKrt8TWmhY7W3Fy7QdpZ9UpoHYT8nNmcLj1oPxt",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 38,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FvMfe9tyF6pAEB7wba6H8X8dx8o4qKFeL9Xk7bbEbjnKbgC",
+   "coldkey": "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+   "uid": 39,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GpDE9kN55cxaa5Ao6k7VQ6LCQVGBfr4Nexdpp51NwoB3fEz",
+   "coldkey": "5E9fVY1jexCNVMjd2rdBsAxeamFGEMfzHcyTn2fHgdHeYc5p",
+   "uid": 40,
+   "active": true,
+   "rank": 0,
+   "emission": 9391852813,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 4169,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5E9fVY1jexCNVMjd2rdBsAxeamFGEMfzHcyTn2fHgdHeYc5p",
+     586311156827
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HVUDZHimCpyvL5k8x8ZN1Lz2tH7FS8ifhBRtDzZkCjeaYHp",
+   "coldkey": "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+   "uid": 41,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GGjiAnexZMfyU8u68DfkGBndxZiD64rJrNX8kT3XhWD8M8t",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 42,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Hh4NTNA7sxJ9yMHiwHM74qYqzsnUKqnXGDGsBapA9CyP8Xa",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 43,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DPq4w8JSYg3Epkqa8yMfhbyrH35AWCiKGsvUkMT63N6Ebpn",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 44,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HMZ4ZEjJEDAi7LPMdeSQtSksNG1MUvAHYCRieNev5JBGpRk",
+   "coldkey": "5Dq3k1CnvgK87YJEMWZZErgC23cW4n7woEAZryHNgXqPYDzr",
+   "uid": 45,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Dq3k1CnvgK87YJEMWZZErgC23cW4n7woEAZryHNgXqPYDzr",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Hj6hrVG1nQnMhFeegfDvnF8qiSGk95de7rrDueN32ykFHbR",
+   "coldkey": "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+   "uid": 46,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GpgXbymsfi7x8nqqv9ygHj2a9E1gKAEcwCmC1WhTHWfp9nk",
+   "coldkey": "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+   "uid": 47,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GZBL5jNaHnoPZaBkMWzVq1bMEKzYECCmffNkbum5fy5Uppw",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 48,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HayhbmcScoxLQvQASFed2fk2MoUEwvQ5HYUwMg4ffnPzYLv",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 49,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GWUL5NnYPefcv3R2pxXFu99ewCJg5RmbN4hSNp9HkyUtAGt",
+   "coldkey": "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+   "uid": 50,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CStkiSr1qct8zctSsg6bf13CCK9eYctBArxLPYuTvDs9ds4",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 51,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F4dnbtuFgDFWbSd6Jkwkd97RcdadvCZrhgwsMBmZDnSXU9F",
+   "coldkey": "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+   "uid": 52,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HdJcNA8NT5QBTcS6mjXecVz8TepEqgfkafAsRf6kunFPfg3",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 53,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GRg7Kbt82aCwhg7z4zo7G9qJNVoAPjd1ujzShB1dEuPnSPD",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 54,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FLoWCDovMPeH3Gv4syQSZ8TuKcMv6N27g8diDU8zJSeRv8m",
+   "coldkey": "5EnXts8HKLv1o3qhFBGPaoZt1CjMd2g4RtKDpnp3A44xFCGK",
+   "uid": 55,
+   "active": true,
+   "rank": 0,
+   "emission": 783038126,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 347,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5EnXts8HKLv1o3qhFBGPaoZt1CjMd2g4RtKDpnp3A44xFCGK",
+     21187871159
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CzM4VzzCd24fpT1E7Hy7CPBgVgUh3uKgrLreaM6Qdf6dRcE",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 56,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GTDzUntFFtpC2MVdto824EJ2973QCs4g42VHNidfFHoWHyw",
+   "coldkey": "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+   "uid": 57,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G1BgGY581jFGhCQKN5nmc8ZLAhHhpo1tsLXwmkq3XDTgd4K",
+   "coldkey": "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+   "uid": 58,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CkffVgXGEdTRYZAVERPPM3jRuYtWT93faxTDgFLZGo3hS5H",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 59,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F2SWGksqJmmvgjaXcxxUphC2v4rcAqV63Dos5Mex3AL1yMH",
+   "coldkey": "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+   "uid": 60,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CvdDYFvtnrCGaiYbkZDERsAVGRnFF6ZjrSgqaQSJEfkWNiT",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 61,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G7J3QooXdPadPPyBBnm8gwBqus9WrWbcQTzi8gefW6WzMvZ",
+   "coldkey": "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+   "uid": 62,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GEgcpzaMyEaYc1cU4VTXWPkHAsgGme2yYUhFSxdEn53HEPy",
+   "coldkey": "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+   "uid": 63,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GjVKTF5NWEvRw6eRQv398uSecHmFVEJps6gRPHrTieb52Pr",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 64,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HjDZqaSceYbEpbkuRhswtknG3i9F4PnQSpctaf7oXHydi6z",
+   "coldkey": "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+   "uid": 65,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EgvSHS2yMHrjZcs9F8cHE7mtojGc6WQLiJkmJK2DFLo1JNP",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 66,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EsZLnDCAB7UJpBmWGUYGZjDTis4PeKDWTETQX2tQziMYb6s",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 67,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Gp6Cfcg53DD3nbVhP82NiMgHcmgois4otm8ntwwv111SahP",
+   "coldkey": "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+   "uid": 68,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HpK6JgZFtzxJ7dxfkw78sgvu4rxCB3b8jXoJajYaBrh3mzQ",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 69,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HidccLYzmxbeXwX8W6Zv7cRPX8TgDUKqaBf4uUNf2AjhvKK",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 70,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EU319XYczmgC6D7Y2Y2JvTffgf5ZBZFeMejxvr2gWzfRnBR",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 71,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HQaMNhTy4czzeLCsffEPCsJB52GkfBDWLEtZ5pQ7cKK7rc7",
+   "coldkey": "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+   "uid": 72,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CsvRJXuR955WojnGMdok1hbhffZyB4N5ocrv82f3p5A2zVp",
+   "coldkey": "5EJAqczgzCMvWcmXhKMZH4vMS5gPy8BjeuHjz5o5yN6RYzX2",
+   "uid": 73,
+   "active": true,
+   "rank": 0,
+   "emission": 1744962664,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 774,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5EJAqczgzCMvWcmXhKMZH4vMS5gPy8BjeuHjz5o5yN6RYzX2",
+     17681016465854
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EZebtQtamGXomAif6v77yxbFA9G6ePomeXpUUREgj7pFD6p",
+   "coldkey": "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+   "uid": 74,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CwJCRdkkLtkB2GuyyNKMrkT4uo6DjpC16iZcvGAtrgKsJsi",
+   "coldkey": "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+   "uid": 75,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Esr31qJ5ncRSsf3LoUVPnyxpQUCApT6YxM1MJ5amcREG1s1",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 76,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Cwki4gWNLMyhJYLGb8EpC9BSkcmGJZDJ8HzttUqhYYf7Gqg",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 77,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CXBkgZjaE2JDAs7iPsVdrG7V3MjJZA8BBKPPj4SrSdGhrBb",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 78,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GC55ed9UhDJDR5aQxCF4XwDnHd2rYrmbnJYgFc1kTKoLV1g",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 79,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GZGFPgJCGpAUC6uRNUcwf1As9DrZP1wTKk4viKKT9zkrMo9",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 80,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G7KpvWk288EFsgXoC3iVPQaqtBn1zJUWYFH9ySPENT6pjrj",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 81,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CwaxNEfSZB5b21BynKq3zkDPoa8JunqtXrUXHXuP24AbhSb",
+   "coldkey": "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+   "uid": 82,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CrNMXvZJ9GH3ESjcZVCyLZVmmgcuVLaxH8Hi3X2Fdabxa3T",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GEcUEtqkAw2Z1GMosvwJUcDuxfqSmMAfTfq1pNNNV93owPE",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 83,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F2Kv5cBfNrwVsC5fZg9jG7TyapMyPVMFD5kJJB5SPYMYC7F",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 84,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5C7YxQUDhvUajfuxoZ4RhAYUfEneHo4mKaNG2b5CFqsYXquY",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 85,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CATqCspM5bq9paUjmKyhEPDit1fDxAUfeVspYgifKNTPL9U",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 86,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GjiXBZtUV5AZnUXbx3KXc6d9HucJKHAfmoyYGRKLj1DzRQg",
+   "coldkey": "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+   "uid": 87,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DPwohnrTryGTnxjU4GDiBmCiu9y5ruHNnPfqCL7DDQTtXeM",
+   "coldkey": "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+   "uid": 88,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FRf3EdeoGPUMgKMp4YE8dEvtKPF8TscydT9eaaSptA2BWs2",
+   "coldkey": "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+   "uid": 89,
+   "active": true,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GehtYVrTnAp4hddLCtKm1kVmbwYsEngXutrvPBsy3vUuUy1",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 90,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FcEsKfgKzG8m22EMaG4jH21RQCJQbHVgcM5963YTdNfKNdv",
+   "coldkey": "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+   "uid": 91,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EP6JBHygzanWXGZuUyA6X7Z4nJZX7cKezuVwmTNFVV4T3Fn",
+   "coldkey": "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+   "uid": 92,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Ef9S3WgkvWjNopmSq7rGiALpGLjQPMBoEkhfdMJUEMwDwYm",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 93,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E7ouf22t38so7zXkvySaymSJ3rnHjEN5DYWwBsxJm4HLHUi",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 94,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EHe8eGrr6SKi4Xqnj7epSzU1CNsgJDXiRBWYmM4Xp8qyksL",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 95,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DcHn7YWHNMcnhNVcFwxxemJQdtqBa7znyXRfoNXsKUmc4TF",
+   "coldkey": "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+   "uid": 96,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GmWaWVgVCTNg76sbk6XyVh9acLsYC6u1Dzh9GEB1MB3iAaB",
+   "coldkey": "5GpRPPf7oNEEfP2J3jwXjDb5VN77zcm23ofSoH7kt1ydK4eL",
+   "uid": 97,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GpRPPf7oNEEfP2J3jwXjDb5VN77zcm23ofSoH7kt1ydK4eL",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GTY6BehSywnc7tgdaaK6eWGYHPdtgtPeYRtY2UxGe55t8vt",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 98,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GGw4WaF1HsUYKW9rTwPeeKgkCLUGnBMDkbw2fypZMz2PBF2",
+   "coldkey": "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+   "uid": 99,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FEoGzfGKZz4Kdk8JWGqwna3dnuQcm1RMTEahkMLuA8KW6sz",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 100,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FQshQc94riqTesF1HR8SnH8deurDu6PMqZKRPzt2hcyCmif",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 101,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GxzARng4NCxTFqpqT1zBP4MFBMRm3vijzW1CEeLEXn59wEn",
+   "coldkey": "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+   "uid": 102,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dex1uPE1jcpwMgAjKR2sSCFjNVf6EskPtt85KVmcxXeyxcf",
+   "coldkey": "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+   "uid": 103,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G9yWmQoZ4aKjR8dR99Ak3R9j1873Ej5NGnxcqxTenNWBN2v",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 104,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FjhAwfMgbgP6p4gNFhEm69Zh9fpaPXPBvjfH896u3RmYvQH",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 105,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FLkBPDNZiAsmdJUvB5jxTs4Eq6inPhZ3rtdsy2MTyi5HNPx",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 106,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GjgwcL9RWVMkoMMZ7TtApe7zRCvvrz79Za77erQWaddD5oL",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 107,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DoPZQnugPQWt8jzjWAmpYfNmruTfd38xjHtUQxVk1Dbvh91",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 108,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Gepv2ENPWYZDRHGKKD4nKrwvA2McKrhkmFJZNjga9e99nH8",
+   "coldkey": "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+   "uid": 109,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Dtq7zZuqwDrNNEarwD73UkfnYp6knWxcPv8eqW9jbbr11tb",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CyQm9M2Jb2Lb5BVgZS9F5MYe97fMUkSVm56nQREqomL2568",
+   "coldkey": "5GP1VN5DcMNW5XL6cAFEzneN9fTfWMytNibZX8YMS7BgJBG6",
+   "uid": 110,
+   "active": true,
+   "rank": 0,
+   "emission": 786150585,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 349,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5GP1VN5DcMNW5XL6cAFEzneN9fTfWMytNibZX8YMS7BgJBG6",
+     897925295
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DPrEHZCUSNhmLHB9LA1iG33XrToWbCRSdi6aW4QjiNSB7Lw",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 111,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CLb4PJWV849jPTNa6M8djL668QjoEuwAxfBW9tMBFKrBzR4",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 112,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GTatywLmYQicApigJjwdccvruY1ocqcC1TrJvbJbCGsPXtq",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 113,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GP7c3fFazW9GXK8Up3qgu2DJBk8inu4aK9TZy3RuoSWVCMi",
+   "coldkey": "5DkwfxC9mZTTCsRUt6nrnwQEWVrhsmY13SBRparj6cpAVxVY",
+   "uid": 114,
+   "active": true,
+   "rank": 0,
+   "emission": 13415397432,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 5956,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5DkwfxC9mZTTCsRUt6nrnwQEWVrhsmY13SBRparj6cpAVxVY",
+     346283782561471
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HTeDGD5ANt5c6oJhNGVFc2ttaEoSp98jV46tWeG9BVySMHN",
+   "coldkey": "5CooLJr4p1xVXGxCP7ZH24gxctWQsbk1iwARdk3wYibKA4v4",
+   "uid": 115,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CooLJr4p1xVXGxCP7ZH24gxctWQsbk1iwARdk3wYibKA4v4",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EhnxFaajCMGKW9CH5oFaFdvB14aAsfgiUpmfo2RNqTbVnvk",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 116,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GESFEav6XXNpSgbMeeUNvwfM45jwq9VukkaYJnP7hHeSRDh",
+   "coldkey": "5GGxWLapK5N5kW822krA64m43dbeidRYYGSUAquEob2eS2cr",
+   "uid": 117,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GGxWLapK5N5kW822krA64m43dbeidRYYGSUAquEob2eS2cr",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GRXWjtK6K9Ptbj2aKwdkivnQmGfC4HHLqvyVRiyANghrpDg",
+   "coldkey": "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+   "uid": 118,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dw6Jb1PE9N8yYi7ZXdVhwPYn3xmdFqN5V3xVDK128R3HMzD",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 119,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GvMKBoHAr1g2fJi1mbmcgkUD5dtdDjuDLEWXUiTwca1oQr3",
+   "coldkey": "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+   "uid": 120,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Cct9EA55bpwmY1Hvy9wBQhRkoca6TB7EDNqCfVUAETovbjf",
+   "coldkey": "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+   "uid": 121,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DMCrRycBYQaasRSjm9a6g5oaX4qRrHd2A1LucHePMBJHajf",
+   "coldkey": "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+   "uid": 122,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Gs87yFXFDjNUXaRpvUM3kcu6noEGVRyYNbb5TnnkodhsHbQ",
+   "coldkey": "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+   "uid": 123,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HBEJZnidyqFuuhA8JafDmFXLccuBiqn4exNPSG7rV69guAe",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 124,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FjfGeyPg61MUF5Sq3F9k3i41GVApmrJ6PXoQpW6CsDfzjGb",
+   "coldkey": "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+   "uid": 125,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5H9f9L3aKng1YuXwoTyUY859uSdUwExH77j6kBcL45rQa6hC",
+   "coldkey": "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+   "uid": 126,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5D5XzPQTtpENShk7Ue2Mpvcb5dVzq5PkGCEX2N5HGQQT76Y1",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 127,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5H1ReHt1MEUPrLVSvSAp8WHVKcbTzZ3jgAWYacfU9VGj37XQ",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 128,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CiVZ2VFrM7N6dmkCbnhrq6jaCp75jxMADAqPo1hv5oizGnt",
+   "coldkey": "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+   "uid": 129,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HNjRgQi26A86T5SpTrSTCAcz84h4CdnK8qiDGJYKs2Tk8me",
+   "coldkey": "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+   "uid": 130,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMLA2Sw94BXGVWGHZMGKsGCe7Bg45DRdeVwcZJoydS2SMZW",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EvtvDZnVPcRb1vu2ht2wQoSP38V5WASb4fxtRYm1PYuKZqQ",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 131,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F1JRZ7wAh93C2EkcaKbjX96wBWJJ2ZrSTyPuGoCzvP8z6s5",
+   "coldkey": "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+   "uid": 132,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CoaNuA7ZZSM1fiuQXM8JWVPs5vK2ytYDosQRYg35jsuHaoQ",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 133,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DegKwKATWYvL4ndsgauT619a4K2VqtpW5MDsqAXwq7t8tzb",
+   "coldkey": "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+   "uid": 134,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GTWZTDko68QWtT8oPmKBqGW5SRgeoWUdYpUxyZw6WCv6E7C",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GDzPKUnQ61frA7w71H7J4v753TdPuHuMMXHFtHiPch8NC9j",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 135,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EyJuvvTkHdQ1fCYi9zj4N23fzTVT2TiCo2WgJHfFNTHY2d1",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 136,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CfU9WQqAu5NcjHzKE6NHaepWYLsauygZjKEb67vv6yQ2Jbx",
+   "coldkey": "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+   "uid": 137,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GhPzb7Cd3HDykHNa2MQ3xBEsahP38qZpkzZJ2NJYT67kwsf",
+   "coldkey": "5EvBauQQjxBkCnA6hGcvS5fr2xzVm8pWXsGFaG13QvyZY8d2",
+   "uid": 138,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EvBauQQjxBkCnA6hGcvS5fr2xzVm8pWXsGFaG13QvyZY8d2",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FvgzdVpchXwK5HPRfhMz5X4g3mfusQG7oMGCnvH8unLA1eb",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 139,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HbScNssaEfioJHXjcXdpyqo1AKnYjymidGF8opcF9rTFZdT",
+   "coldkey": "5F4XcaiEBkE3ARx2kG29KJ8e94nFfUZQYC4c7zfticastxiD",
+   "uid": 140,
+   "active": true,
+   "rank": 0,
+   "emission": 393861655,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 174,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5F4XcaiEBkE3ARx2kG29KJ8e94nFfUZQYC4c7zfticastxiD",
+     938670883948
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HmZQowDUxKgvKH46TUxWFiumpudXfZEuuwXuuc87CJUK7t4",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 141,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dc5rhz3XbXEFj3UnXeApBkKKkGY5FvJ56sd798R3riBP2H7",
+   "coldkey": "5EKqMZ6meGvZbaqJHRKQU5EpXbXMSQ7TGqyYuhARUsY6NUuB",
+   "uid": 142,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EKqMZ6meGvZbaqJHRKQU5EpXbXMSQ7TGqyYuhARUsY6NUuB",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FqJ2kUyxFfuiLCmzGnPTS95NcXcaxNPxUHWsNMdujr23jgb",
+   "coldkey": "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+   "uid": 143,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E9vRSxypx39uaz747ZbwA2ey6gFGqFbxU6FuoaVd37KQs25",
+   "coldkey": "5FuzgvtfbZWdKSRxyYVPAPYNaNnf9cMnpT7phL3s2T3Kkrzo",
+   "uid": 144,
+   "active": true,
+   "rank": 0,
+   "emission": 1547797666,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 687,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5FuzgvtfbZWdKSRxyYVPAPYNaNnf9cMnpT7phL3s2T3Kkrzo",
+     9232181428736
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FNsEj16J4xsY79mofbs8vjKs8gsBarFQmGDZCwBmogCz45b",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 145,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HNfiHddZoNGPf9hSaZp1HFCTxquCjABKzycUidZq7eXSB42",
+   "coldkey": "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+   "uid": 146,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EJStdoi23RgpAbtzk2N1nmaPfLMTPiCi8fcJUab18JUXEyB",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 147,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CqRMuYSSqYkSa8AM3VawVfdyUhyBufyesvvgh3vCgaGb9Ed",
+   "coldkey": "5ENrWG7XFS7bcTnZFhYqj4W8EAAeYS3hAFUQfPPDMWeKHEcx",
+   "uid": 148,
+   "active": true,
+   "rank": 0,
+   "emission": 4762299548,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 2114,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5ENrWG7XFS7bcTnZFhYqj4W8EAAeYS3hAFUQfPPDMWeKHEcx",
+     1431814931807
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HjCAec4HmrhoBsFiQeGM5YCPLnSi1q2sWpJ9HAFjV8qHjGn",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 149,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F7GABbpDyzRjyBNCC7pmRxvPZPUUuinExwcV7e8GSwDTTBB",
+   "coldkey": "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+   "uid": 150,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Ef3DW8QQYNWDw8vyPgLbrXv8VzZeDqaB7ezFCGdKAuxhLZs",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 151,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Fmya42g6tdKSwPgZRvfMLW95XB6Uaa4A1o8TcJW3ZBY3Tjv",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 152,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HKUaVK8r9tbYswCgU3XrJM1ZRnByt14NYqgMgvKUM4uGjzT",
+   "coldkey": "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+   "uid": 153,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F4XsRExdA3XiTyZJny9g3p7mKU9P1Fg6QgB2kdiQ1fy3pVe",
+   "coldkey": "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+   "uid": 154,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GZJbWRUrDJgxLfZmEW7gGKQjCNxSBvbzFSn6Vccpgdcht5K",
+   "coldkey": "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+   "uid": 155,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FvGjSw1VLrifLddZvRAAXZVgYizQSQTc6QKYnt4PEXmxcvF",
+   "coldkey": "5GGxWLapK5N5kW822krA64m43dbeidRYYGSUAquEob2eS2cr",
+   "uid": 156,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GGxWLapK5N5kW822krA64m43dbeidRYYGSUAquEob2eS2cr",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Hg3j5urpmHPwT6gy7hN3TphN8M5g2zV1W1DQcRxEnUrRe6x",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 157,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FjWaptLf7DwYyT8sLBbiga8pQLSEGVNGxdEZD47Fuosn5nL",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 158,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FRdLDgVub1LhYyHu7rVm2Mm43uP8frpVwjsvjnMKnutkWh8",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 159,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HeDpGPoXuT7xpVR29J1v5znY71oDWH9z7maApSjhKWoVwP9",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 160,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DLwSbuhFS3urdvcqwEfeQdaJLpkazNqPw5WKjCdtM9CX2KM",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 161,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HgqVr53ejqD61ZcSK7g9JREtdYYiy6YGtnTNBeytB4FRrAQ",
+   "coldkey": "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+   "uid": 162,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GWegSnUbqVZ9YjCiKNRCii9CSdZLQGWRY6rbnpFbH1i78q7",
+   "coldkey": "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+   "uid": 163,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CPS7d7J8GBTwuSjAtkM6RmnffBAo2DbPYUKJRrXoCALDULt",
+   "coldkey": "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+   "uid": 164,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dw7YdU6JWnYF5NhygNExu3addMUYuskEEjzyLzMQudrwMZL",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 165,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EyjWn3ZSD9bo7rhwMgf4LWQe2GPCbvPtGDrts9AJAJEatr3",
+   "coldkey": "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+   "uid": 166,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FRjwKGnKCFqhc72pv1591yKQCF9A4fhEQXsaJxs5cQWnHLP",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 167,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GhFJcyrAXLPAfNgJLjpQRvxufAg3JmJQDN82m8yExUG75YA",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 168,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5ChuS3Xtg21tSYmb1fF3Kwrtcss2BGHsgTVbmsYX3Y7Th8c9",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 169,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Hn7bpVSZ2iw2Z5hofJni2gkPYvEuiz9WMd5roAyftBC6kKW",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 170,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DAESw2dRR2xwhvKpiNfGJqkaN6WzHvLEi81bXkpTN4YmGa6",
+   "coldkey": "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+   "uid": 171,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CrAa5Uf8iPd84NNwa9Pu7CtyC8ubcKvfw7d4NHaRoZV8xGa",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 172,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DSNjzkG7NubxfjuvHFpP7o7df8BuyCFCgn3XKyoicU3PFRj",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 173,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CJnUZiY3rpPL7kmFugTBTjerVqdm1L5LU44GTZodqhjxTAJ",
+   "coldkey": "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+   "uid": 174,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DAaKAqA7a3rLGnkPJLfacPEEkDn9v7Z3xnc7zCa6ShVDe1V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dkaz34uZf5KJAxfr8XRbzMp4zfRyvdN1wtFNam4Po7REvcb",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 175,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Gh6hmcByeemV2Ko77PMK5HMFGGbeZQ6MyyceCwnDaZJzEYM",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 176,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FenyfXYuSF6stBpKwcCWxR7WWCotMiqjNjbpX6Y1VXZYQrf",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 177,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5H9ABR2Z4hvFkZycn3DuUfWvRYUAQXXu46uHgLFaNZ1ZL9dd",
+   "coldkey": "5GW9X8GyXwA3VQbNhnzb6sJmfPvKBBJwx19hJrCseverjovV",
+   "uid": 178,
+   "active": true,
+   "rank": 0,
+   "emission": 1207624149,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 536,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5GW9X8GyXwA3VQbNhnzb6sJmfPvKBBJwx19hJrCseverjovV",
+     64198243960
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HdqPoJv1yKMMYX7hRfAtAD21FyeS7UXpF3RViJxToPTvDvK",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 179,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FEGnag8kweaXf6yD7MuHPR39meFuj7ajvPRGMm2PzkYV5RQ",
+   "coldkey": "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+   "uid": 180,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GpczXPHNYewbYZz4rfvaZ2vmCWpAhni9cooNNk3HwY7cdhX",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 181,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GTw8YR9rwSSkqgoGDHNB7x3UzYkngwMFABjJTmrBrxsGuNj",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 182,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F4tftoZArVwxMT6iNNzH6BbjmazBHimmMA3SytK5MZbB8Do",
+   "coldkey": "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+   "uid": 183,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HQQCgJK2L1rma13cRdYRwzbL7zYe6pASJyXeQGW63JuFEiv",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 184,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GHsuFtoiGstcPgAJL9TXEEvWvZHkWP56JTDXz12mcUwa1dn",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 185,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EnvjTgDYsDTZmXW9mrSRaAhPAyEoU1JnUqKfkviNrJYzYak",
+   "coldkey": "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+   "uid": 186,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EFBeJtyS2y5pyC2iHiicWo4WUXQXStg26PE4mtPMfa34oJ5",
+   "coldkey": "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+   "uid": 187,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DX5Nzd5ctZ4xfnVNUV9bAiyK836WDycUiuhH7vMnVEjMdJJ",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 188,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CqZp2a27W3bWZc25Uddddo58tsxcd9tU8zJpWtnWjH9zsra",
+   "coldkey": "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+   "uid": 189,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C554tecM33iHxhi4Xna57MRfey9CHhNXFsjuxusf5y7FdKt",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Ef4ePrLaojvG3cZQM2CQj3v6ngRByMpp184iqK3J1niMegL",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 190,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HDqD7WqvE9fgWjjiyFUo2mYw5FZEShduwBWu5hntvuR4ewp",
+   "coldkey": "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+   "uid": 191,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CMDmdV33yj6hJAWKCNF7euicMdhGdqbb5o75wJHvck71pWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E4aqtvGrLs7Q8tMxc4mizZZxdnTyayjQvyybdwNFogac9aQ",
+   "coldkey": "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+   "uid": 192,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DkxTh3rPSTLSkXGBA2wSEfPRxrRY1DDzsdEsYmj7YoBRj19",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 193,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E1jrczdvsvktR733H9t4kaWDXQDKDva8tkJ2BW8zRMTEHfo",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 194,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EeL53r4FNKmAnFhtaqpFCaJCaehJrx1fYTJYEJ8ERTmuLQi",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 195,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5ELtR9dKY871Yv7vcWgpc1sLCr2maR6v5nfi3fdj7qnAh4UK",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 196,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FCv2gPcMrQr3Y4pDfhUKymNCHag4YYayqFB2uv3du8q7gBL",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 197,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G1LpTBTL7nRwJMDVk4yihsLBhLbm1F5pLPS7s6fgv25Pc9A",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 198,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FNQxCB3Z9cdn7To4LLMuG3qEaC3FVFvxJtAMyegeku37GcW",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 199,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DkPWEfuXEWuGEKn64Gu5ZHvm6x2RJ9hfzsEdNRvWyRsX49K",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 200,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FJ1qEtyYt8uPfRhpVnM286p45gGTA4BBqE8acT9wwPoFkLj",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 201,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5ExtLCgxqMU8Ra2jgNaq3VfBaKfLdywS5H9SsvzzKBjEAkRE",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 202,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DcoeFmCEfDKdojeb7wfqvcvceDfp4mgYfNXpn2kprF7KJgf",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 203,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5E2LP6EnZ54m3wS8s1yPvD5c3xo71kQroBw7aUVK32TKeZ5u",
+   "coldkey": "5GsbTgfvgCH4xdqSkiPb7EaBBFLHjWH5vfEALhJaewSFpZX9",
+   "uid": 204,
+   "active": true,
+   "rank": 0,
+   "emission": 76474878219,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 33954,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5GsbTgfvgCH4xdqSkiPb7EaBBFLHjWH5vfEALhJaewSFpZX9",
+     452675198027358
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HBp1o5ULKEedw4RXZDfD7uCkTNrgZ6ktDMkhedCJ3m9H1rw",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 205,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CtrhDGsB54V1mWrc3ZrAZ9rUkHxh4RfpqiLVLgfNnPYgJfH",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 206,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5D4dzZPbozhyj8n9eDYHzfQjddjagCzVhtKtGXTmpSiY9EoR",
+   "coldkey": "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+   "uid": 207,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FjdEGoC1H8cVDGQ3MZngj1V9vvqAngfzkEc8ZFZZWx9Xusv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GCSsXB7ZmJQALVB8Y58hrm796GKuHB6rxVvnFftZ5wWw9AQ",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 208,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Epu9jjgcZt3Cxntp75Aq5VmQ13xohX5wkAeTjTHLWj53fde",
+   "coldkey": "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+   "uid": 209,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dho4HuB988s8kNSNe2fEdKQKJPpqiuUURhD5dazmdHVpuD6",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 210,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CS8ehMJTF6xM6fjR6AcMgGWP67APdx352r4wYVhHnrzAGqM",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 211,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DFZEJwgkg98h1kyngSEMYY1NnxXE9tkpLGCtQqf9XCtGBxf",
+   "coldkey": "5FHxxe8ZKYaNmGcSLdG5ekxXeZDhQnk9cbpHdsJW8RunGpSs",
+   "uid": 212,
+   "active": true,
+   "rank": 0,
+   "emission": 6321528101,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 2806,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5FHxxe8ZKYaNmGcSLdG5ekxXeZDhQnk9cbpHdsJW8RunGpSs",
+     1285655143319
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CMZNJ75ZQwx4XVvyDQi4WvA4o4BWMGapeUEoEupkPXWrHao",
+   "coldkey": "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+   "uid": 213,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dd5T3EDQaqL2ysxHYjq9ybWCCZtgugbHFaC12EmLbcVGS3n",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 214,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HGqAkT81NiWoiwVDENypWGK2ad5poPr859iZcDKRT7kYnEe",
+   "coldkey": "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+   "uid": 215,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EneTVA9NyagEwpFQA8Rta7oKddqzDAstfDdk2qLuJkyjrWD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HbTBMeZhdhDD2RfqsyJ3TYqHWiX4qMxeSHwExtkz45q5ZLu",
+   "coldkey": "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+   "uid": 216,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dd1mbfgn4C8ocTD6oGhWB7h5uBncui43s3Nb1XhcM6WYhMG",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 217,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G9hfkx9wGB1CLMT9WXkpHSAiYzjZb5o1Boyq4KAdDhjwrc5",
+   "coldkey": "5Ek8i6wDRakJfJPM9wpJLYDE9G9uaqHLdARoewtTiLtbt33f",
+   "uid": 218,
+   "active": true,
+   "rank": 0,
+   "emission": 1158248325,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 514,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5Ek8i6wDRakJfJPM9wpJLYDE9G9uaqHLdARoewtTiLtbt33f",
+     26681406504932
+    ]
+   ]
+  },
+  {
+   "hotkey": "5H3pGapvFiu3zU9BpmxLCGfbEtD5nKMsqbcbq8TsoedRJuza",
+   "coldkey": "5Dw3wGAvmMbW9kgHEPaPLqv85ULped2YgNrD42Wm9MwpL65T",
+   "uid": 219,
+   "active": true,
+   "rank": 0,
+   "emission": 696232166,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 65535,
+   "dividends": 309,
+   "validator_permit": true,
+   "stake_raw": [
+    [
+     "5Dw3wGAvmMbW9kgHEPaPLqv85ULped2YgNrD42Wm9MwpL65T",
+     972210317735
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CJYeMrGdMRN5GEbu5mrDdht7dgiB4Eqb8qdgQWaWquSYgpx",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 220,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FeXcxnbA3Zvsb1JVw1kqN7WpGm1iwErUpG1qwgYCegv1g7Y",
+   "coldkey": "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+   "uid": 221,
+   "active": true,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G1o9StGATExF3Zy9Hg3Gg5RvAEmxEkwvy3RidkTggtRGNgY",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CCs76q99pTd7t2XRxfeTeDTQ9hEteZSra7qt3eJKTnQJQqS",
+   "coldkey": "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+   "uid": 222,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CSJYQNZkHke4oeKDX3W43t46FNeiedjgVZbUefMa31dk5ey",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EC67gyQACm6HJqYXEtqbGxMhWgL3adyD3Ced4iB4xrBBajk",
+   "coldkey": "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+   "uid": 223,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5C5qSmgRntpCpCFwqDzqZyxXuneo6n3VBEK5JyonoKxr3pkD",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Furxa6oEkasUPDQwSoNVy6vW9zNft3XRHnN7LEisvGWK2HC",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 224,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DcA46w85P7Pvxm1JTDgwnueTX4sjxdeb8jt7ZwwxnDuZagX",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 225,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Dbt9GErrMuzFuW2EKfu5RVRqyENGUCHafnBkY1AekJ1yEYM",
+   "coldkey": "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+   "uid": 226,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HEfnFSSAFA1779BQTjpww7pzpEHUn4uvroBeKkvc6JYKa1d",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 227,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5D5FHq5X7ahK9fbAwEiptG9o6kcSZq71cmT9wCR5XB6uWD2j",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 228,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5FCBLizEaKDj4TrZgP4Tme6oT1Fi2m1tKEfm2Ag9sN2S9nam",
+   "coldkey": "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+   "uid": 229,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GZGJrvE7bEBoWuJXQiTvHvA9mjdBdRxMJLcv5n8H4GpAdnP",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5Di2jZd5hoqSEGXbJ2B3VCfdWS7mH1MK3xWf9NFhEpvWzjCS",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 230,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DAw6VhQPawuqqa9DsP18NFtuTzbbXCyHu7Kyw1Xghmxheed",
+   "coldkey": "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+   "uid": 231,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G3kax3he9er1RcVmrGhLQ7r9wHptrGSZLmrc8gAkoisnqgM",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GrpVmiBX2vMpXoJ1ixoojPfxg6cV35CUUaSYtY2RvWA2Q53",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 232,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G1ArRcQ2UbYXs7yUFRqPGmhtpJYS5NQLJkzAvMgnkS1PY33",
+   "coldkey": "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+   "uid": 233,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5DyN2AYhqBNuYzNPcTg8p3jNma4MLGAKdXCf7bPo9mxYZf9V",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G1WWrFUdLvx8zfAL6MHmPEqEKrxnhs41rxfFPeGVevvDsSs",
+   "coldkey": "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+   "uid": 234,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5ECdNuwRTKF63RAxg1r58PMTkg8bnqfv4KQdm5vKqSqViToJ",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HDzqYQwSBTgcQE364EHP7phzBaA9XMWZXmKnmVTK7pafUBN",
+   "coldkey": "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+   "uid": 235,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EyMhrVSPLB6kxGFzDRAce653dRNmgBx769nu4Kd4xa8k6Uv",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DPSpPjEU4RRUiLdbi3rMaNHWuKW5Mjonua7MDvRKjsGajDi",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 236,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G8zB79vyiJ2fa7x9K8KAXA4TMPqXcBFKJVWCc54P3NTE4Ti",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 237,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DHqqbDvcY2MaPrJWsXsvgLbm2rGgHsB9YiA8ZxUpBFgpr9p",
+   "coldkey": "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+   "uid": 238,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5E2UBRTnRTmRDHsnQrF6mmVHRm17YLBs9UYACSzF9vvDZRG9",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DCtXSf7AhsrgisefzneFBCFPYphw8s1xv5EJm4PTiJoMbci",
+   "coldkey": "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+   "uid": 239,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5EASpp2PiJk93rTox3HWGZrGrdWETKgV6uZrH89T1rCEvofm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5G4k4Uwza4VPKk8SWGRTYqHEcbYKobr53TCBPBXF1xiR7ntF",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 240,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EEq5BNAfUDKDKj5NPqsth2pFb3dkFJRXEjTtR1FmvLJAib5",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 241,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5F1GYVrSmfaxnKbhu2KwX5DqXh4WvRBoX6cxYhHWsfJWqF6T",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 242,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HdzgxwibmRh2bzr6QHfhUMCrDxw6jczKvHbUpRcFz9Jj5mB",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 243,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HVseZBgQcZdr9H6WWyJviyoABR6pZEJnXyLrjnpBpZQPusz",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 244,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CdRKe2MeRBtBeWQMT6KwSdJCLnnwrhZiqXeVTSD7G4SwBr2",
+   "coldkey": "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+   "uid": 245,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FhLmQf9fvY5vSmjeq31TCsek2cJGnkHAJtcsiw24jbcS4iK",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5En58amyoSPMrugQBTKf4jkwgWaJrDcS5GNCgG7r4Mexuizy",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 246,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HW9vQEJacKguAmBovrQYmEFpsL7e1ix8SJpgs3p1khQZh3T",
+   "coldkey": "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+   "uid": 247,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5FR1P1f78nvF9oVLCjziS5rL6HpYBMzVNwFQBJGVqwHNG4bN",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5EFKA3SAnvK9iss13f3TALdvKCADeiGYosn48GHzhshSbYvo",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 248,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HYchsrmzNwoibMgP7A6nor2q7ihFFuM5PLAZisVJxWZ9xTN",
+   "coldkey": "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+   "uid": 249,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GbiKZuktSM8dD9uthPgyDe8RL1tH3eKYE1NhMiMpS8EoPR3",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CLno4ah73ZM6vr1RUjWS7fLj6ZizHMVx6xoPSGPbWHgFBjX",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 250,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5DUNWYbrf8CiYJ6To8YQ3QfzZquaJXHEXunx2cfaJA9mKops",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 251,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HW5dhkSCNiW2npGgM5LN25ptu7WV2APGxAnwdTfYSd9TSnr",
+   "coldkey": "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+   "uid": 252,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5G78v8Qb6NrRJCcYwgvyYAUAhKCoHJ5mUuDq9sqyWraHDq4r",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5GW6RcuJCnAvgb9xbtPupeewV77a6PXxzRaNQLe2XyGR8s6J",
+   "coldkey": "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+   "uid": 253,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5GsUMfaAzH2e4YcgHjstL1rewba3ZeyxLySzLBCkPQQbRhfm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5CaU7JqsXs1GRzjwP6tHsh6krNPSCbCHx6KiNNSgVqYGgVQE",
+   "coldkey": "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+   "uid": 254,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5Cd7zZBGv6PdHYhdhZjL3k5kq3WgYNWGivfWeiJtAiLm5mtm",
+     0
+    ]
+   ]
+  },
+  {
+   "hotkey": "5HW1TxyF5TQuEaj8hzCWasKkpZfnH8cpwE8Ejr1AP7v52rvM",
+   "coldkey": "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+   "uid": 255,
+   "active": false,
+   "rank": 0,
+   "emission": 0,
+   "incentive": 0,
+   "consensus": 0,
+   "trust": 0,
+   "validator_trust": 0,
+   "dividends": 0,
+   "validator_permit": false,
+   "stake_raw": [
+    [
+     "5CknxoDyxrzkHaco16xo4MRLTkrMLPXpu8SgE4frj4nAX7Js",
+     0
+    ]
+   ]
+  }
+ ],
+ "hotkeys": {
+  "5CqRMuYSSqYkSa8AM3VawVfdyUhyBufyesvvgh3vCgaGb9Ed": {
+   "take_u16": 5898,
+   "owner": "5ENrWG7XFS7bcTnZFhYqj4W8EAAeYS3hAFUQfPPDMWeKHEcx",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5FnGPRV7fQSWjHo8Q3Bgrn7GzciQKJKUitv9WCwqTzZKMVZZ"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 1431814931807,
+   "root_stake": 285789256830
+  },
+  "5CsvRJXuR955WojnGMdok1hbhffZyB4N5ocrv82f3p5A2zVp": {
+   "take_u16": 5898,
+   "owner": "5EJAqczgzCMvWcmXhKMZH4vMS5gPy8BjeuHjz5o5yN6RYzX2",
+   "children": [],
+   "parents": [],
+   "childkey_take": 1966,
+   "total_alpha": 17681016465854,
+   "root_stake": 161724542278889
+  },
+  "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG": {
+   "take_u16": 11796,
+   "owner": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "children": [],
+   "parents": [],
+   "childkey_take": 0,
+   "total_alpha": 774263677726061,
+   "root_stake": 0
+  },
+  "5CyQm9M2Jb2Lb5BVgZS9F5MYe97fMUkSVm56nQREqomL2568": {
+   "take_u16": 888,
+   "owner": "5GP1VN5DcMNW5XL6cAFEzneN9fTfWMytNibZX8YMS7BgJBG6",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5FFSBkNiymQWHaxc8dTmfTT7iHoz6YDexVG4xR2yLrffVR86"
+    ]
+   ],
+   "childkey_take": 888,
+   "total_alpha": 897925295,
+   "root_stake": 0
+  },
+  "5DFZEJwgkg98h1kyngSEMYY1NnxXE9tkpLGCtQqf9XCtGBxf": {
+   "take_u16": 11796,
+   "owner": "5FHxxe8ZKYaNmGcSLdG5ekxXeZDhQnk9cbpHdsJW8RunGpSs",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5Ft5kRgKDFafWX8mHneYqi44z8J3PGDguVjYnEADxjVJPTih"
+    ],
+    [
+     18446744073709551615,
+     "5Ckaoft1B1CQ9zBV2FLVju4KPuMQzJVn7QUf3JeTvTq1uUes"
+    ]
+   ],
+   "childkey_take": 11796,
+   "total_alpha": 1285655143319,
+   "root_stake": 0
+  },
+  "5E2LP6EnZ54m3wS8s1yPvD5c3xo71kQroBw7aUVK32TKeZ5u": {
+   "take_u16": 0,
+   "owner": "5GsbTgfvgCH4xdqSkiPb7EaBBFLHjWH5vfEALhJaewSFpZX9",
+   "children": [
+    [
+     590295810358705651,
+     "5FLoWCDovMPeH3Gv4syQSZ8TuKcMv6N27g8diDU8zJSeRv8m"
+    ]
+   ],
+   "parents": [
+    [
+     18446744073709551615,
+     "5CoZxgtfhcJKX2HmkwnsN18KbaT9aih9eF3b6qVPTgAUbifj"
+    ],
+    [
+     18446744073709551615,
+     "5CszMVts9ueMUSKdAwLFSLT7u4oyxN7fUBpo8Z3ETw1ggMUV"
+    ],
+    [
+     18446744073709551615,
+     "5DM7CPqPKtMSADhFKYsstsCS4Tm4Kd6PMXoh6DdqY4MtxmtX"
+    ],
+    [
+     18446744073709551615,
+     "5DUuFhF41eCf5Yu9h17j9ogGkJhXYr8mkU8tFcUDkH16k2GU"
+    ],
+    [
+     18446744073709551615,
+     "5DvDypN8BPG4ThSTes2YQ64PUSYMngoQYnzR1Dw1a67TdiFp"
+    ],
+    [
+     18446744073709551615,
+     "5DvTpiniW9s3APmHRYn8FroUWyfnLtrsid5Mtn5EwMXHN2ed"
+    ],
+    [
+     18446744073709551615,
+     "5E4z3h9yVhmQyCFWNbY9BPpwhx4xFiPwq3eeqmBgVF6KULde"
+    ],
+    [
+     18446744073709551615,
+     "5EByfpgRHm7FDpJz9iLwU1khBes5tGGgRXyxno45uM4YJWs4"
+    ],
+    [
+     18446744073709551615,
+     "5EtUYRu7sFqs9obCrN6JSNTnAAcpk98oJ27YV2EF9gC4tvzs"
+    ],
+    [
+     18446744073709551615,
+     "5FFM6Nvvm78GqyMratgXXvjbqZPi7SHgSQ81nyS96jBuUWgt"
+    ],
+    [
+     18446744073709551615,
+     "5FeKsRjZ6zYiX1VNwoDqHJKTToMbks1bstr9ah9VGaPX9DGg"
+    ],
+    [
+     18446744073709551615,
+     "5G1NjW9YhXLadMWajvTkfcJy6up3yH2q1YzMXDTi6ijanChe"
+    ],
+    [
+     18446744073709551615,
+     "5G3wMP3g3d775hauwmAZioYFVZYnvw6eY46wkFy8hEWD5KP3"
+    ],
+    [
+     18446744073709551615,
+     "5G9mJMfD12NxF3oXuTrLuCQHyQeJfMkHKHbPncDnGbTn423v"
+    ],
+    [
+     18446744073709551615,
+     "5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1"
+    ],
+    [
+     18446744073709551615,
+     "5GTWwu3NCbYmVFzwfrXa1sx8y4UNLR3padWfVZwjNnDmySXP"
+    ],
+    [
+     17524406870024074035,
+     "5GcAZ4SFfghRCYqhSTaeGqmgfosWfRRtSjp5T1YxpVuNHZCV"
+    ],
+    [
+     18446744073709551615,
+     "5Ggasr6fQqKZXuovBTT44GvhuoFpxBsXGPY3AUtFr9mWxGTV"
+    ],
+    [
+     18446744073709551615,
+     "5HK5tp6t2S59DywmHRWPBVJeJ86T61KjurYqeooqj8sREpeN"
+    ],
+    [
+     18446744073709551615,
+     "5HT9U1J85fyNVudFAHuhYSGajRth8r3kYo7hTvkUXFEEDhQD"
+    ],
+    [
+     18446744073709551615,
+     "5GroGY3XJtrJipxnB9qZcig6rVw69kT8fEbGpxcqekty6gV7"
+    ],
+    [
+     18446744073709551615,
+     "5Fq5v71D4LX8Db1xsmRSy6udQThcZ8sFDqxQFwnUZ1BuqY5A"
+    ],
+    [
+     18446744073709551615,
+     "5FWB5CFZQB4FcmekEXrXtoGgjFt37HGQk27JzWKkRzqWjkg5"
+    ],
+    [
+     18446744073709551615,
+     "5DjtmV76CRvxZqd68fDwWyTmsfqUZ5EUXVJ21FKTBzwLT4Kd"
+    ],
+    [
+     18446744073709551615,
+     "5EAdPk767CtE8HhjhjAUNtLzd8vNm9Nm6fq9h3PGSL2VpYDc"
+    ],
+    [
+     18446744073709551615,
+     "5D4gEn5S422dTGR5NJJKZ93FNV6hDmfwDPfxFNgcoVnUkZ4f"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 452675198027358,
+   "root_stake": 1015919701117888
+  },
+  "5E9vRSxypx39uaz747ZbwA2ey6gFGqFbxU6FuoaVd37KQs25": {
+   "take_u16": 11796,
+   "owner": "5FuzgvtfbZWdKSRxyYVPAPYNaNnf9cMnpT7phL3s2T3Kkrzo",
+   "children": [
+    [
+     16602069666338596864,
+     "5FYwKoHYfiuy9m2yM4wbwM5pQyaEP38MBTTZS8RwNKRuQ8mi"
+    ]
+   ],
+   "parents": [
+    [
+     18446744073709551615,
+     "5H66JLTYFWaHDtBtScE4X9f5WDjrBS1iGeXeRykPuH3SMyNh"
+    ],
+    [
+     18446744073709551615,
+     "5FtBncJvGhxjBs4aFn2pid6aur9tBUuo9QR7sHe5DkoRizzo"
+    ],
+    [
+     18446744073709551615,
+     "5EqYdsxW1EYfb7PdJrazCYd1JuunqhABtHSWKh34jPbQoaUf"
+    ],
+    [
+     18446744073709551615,
+     "5HK2LZRrvj581VjyxuFxb6ehFZoNi5PqAg3Y2HsmYPhGYYXr"
+    ],
+    [
+     18446744073709551615,
+     "5HK1Ubcg6MBwDGW7Td4RtAvE1FNyvkHvXKfwymW9q1BCRJAK"
+    ],
+    [
+     18446744073709551615,
+     "5F7dvCS7mdzJU4o9bAUx4LPgpF3XeMM1XEz9nVqVNga9r6LW"
+    ],
+    [
+     18446744073709551615,
+     "5ELREhApbCahM7FyGLM1V9WDsnnjCRmMCJTmtQD51oAEqwVh"
+    ]
+   ],
+   "childkey_take": 5898,
+   "total_alpha": 9232181428736,
+   "root_stake": 0
+  },
+  "5F6aRdsBHajN2NhZHBTB6ibBFu7YuZZEWruWzB8x6B6GiZ4D": {
+   "take_u16": 11796,
+   "owner": "5HTeZ5168DjjGWZgbvzGfysEAj9fnexF24gYFKJHENU5cc8a",
+   "children": [],
+   "parents": [],
+   "childkey_take": 0,
+   "total_alpha": 0,
+   "root_stake": 0
+  },
+  "5FLoWCDovMPeH3Gv4syQSZ8TuKcMv6N27g8diDU8zJSeRv8m": {
+   "take_u16": 11796,
+   "owner": "5EnXts8HKLv1o3qhFBGPaoZt1CjMd2g4RtKDpnp3A44xFCGK",
+   "children": [],
+   "parents": [
+    [
+     590295810358705651,
+     "5E2LP6EnZ54m3wS8s1yPvD5c3xo71kQroBw7aUVK32TKeZ5u"
+    ],
+    [
+     922337203685477580,
+     "5GcAZ4SFfghRCYqhSTaeGqmgfosWfRRtSjp5T1YxpVuNHZCV"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 21187871159,
+   "root_stake": 0
+  },
+  "5G9hfkx9wGB1CLMT9WXkpHSAiYzjZb5o1Boyq4KAdDhjwrc5": {
+   "take_u16": 655,
+   "owner": "5Ek8i6wDRakJfJPM9wpJLYDE9G9uaqHLdARoewtTiLtbt33f",
+   "children": [
+    [
+     9223372036854775808,
+     "5H3pGapvFiu3zU9BpmxLCGfbEtD5nKMsqbcbq8TsoedRJuza"
+    ]
+   ],
+   "parents": [
+    [
+     18446744073709551615,
+     "5CcD4RLFJxtRPVtc4FyZqjXMEfrQUNY5F3mW5hfS9rVQDcdb"
+    ],
+    [
+     18446744073709551615,
+     "5FBqnTwnCq6yeVeXTnVGHbiRR6zh6ZGbKVRBusu4zSCu4WUw"
+    ],
+    [
+     18446744073709551615,
+     "5Deo9Q3SnZWNPSEPRTgapbyy6egKu2oaNSqD4RQHHJEuzD9Y"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 26681406504932,
+   "root_stake": 49953116901553
+  },
+  "5GP7c3fFazW9GXK8Up3qgu2DJBk8inu4aK9TZy3RuoSWVCMi": {
+   "take_u16": 65,
+   "owner": "5DkwfxC9mZTTCsRUt6nrnwQEWVrhsmY13SBRparj6cpAVxVY",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5HZ7yqdZhZdFpvqz6mrXeiMazszseDyusP6bLiLKEx4TKvif"
+    ]
+   ],
+   "childkey_take": 1048,
+   "total_alpha": 346283782561471,
+   "root_stake": 69549187370251
+  },
+  "5GpDE9kN55cxaa5Ao6k7VQ6LCQVGBfr4Nexdpp51NwoB3fEz": {
+   "take_u16": 11796,
+   "owner": "5E9fVY1jexCNVMjd2rdBsAxeamFGEMfzHcyTn2fHgdHeYc5p",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5DXdHixxtCvoa6GHKs2Jgrdzc61882Ftx1zN2sYFQuwgL1S1"
+    ],
+    [
+     18446744073709551615,
+     "5Hmh4DCoGNC7PMtL2aShJ9W3bY29jNWHSmS57qVP1bU51Ab8"
+    ],
+    [
+     18446744073709551615,
+     "5GztaLqpZxZeFSHCvArzBXS7PuybmerEN2Tcirgd95Hy2dQh"
+    ],
+    [
+     18446744073709551615,
+     "5FyUNRQ26cvNwCPGobiNiabcVsRksczDE8mKxHvQSebNEBcD"
+    ]
+   ],
+   "childkey_take": 11796,
+   "total_alpha": 586311156827,
+   "root_stake": 0
+  },
+  "5H3pGapvFiu3zU9BpmxLCGfbEtD5nKMsqbcbq8TsoedRJuza": {
+   "take_u16": 0,
+   "owner": "5Dw3wGAvmMbW9kgHEPaPLqv85ULped2YgNrD42Wm9MwpL65T",
+   "children": [],
+   "parents": [
+    [
+     9223372036854775808,
+     "5G9hfkx9wGB1CLMT9WXkpHSAiYzjZb5o1Boyq4KAdDhjwrc5"
+    ],
+    [
+     18446744073709551615,
+     "5Fppap6WurosERSFvetmrDjK34XMRgP5PctTX6y7BJ2dMEjv"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 972210317735,
+   "root_stake": 0
+  },
+  "5H9ABR2Z4hvFkZycn3DuUfWvRYUAQXXu46uHgLFaNZ1ZL9dd": {
+   "take_u16": 5898,
+   "owner": "5GW9X8GyXwA3VQbNhnzb6sJmfPvKBBJwx19hJrCseverjovV",
+   "children": [],
+   "parents": [
+    [
+     18446744073709551615,
+     "5DkFEQdEwE5ZcJbv2efF4F5nRTxuEdYhLHqd2EfdR3aLM7Fn"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 64198243960,
+   "root_stake": 118991500330340
+  },
+  "5HbScNssaEfioJHXjcXdpyqo1AKnYjymidGF8opcF9rTFZdT": {
+   "take_u16": 5898,
+   "owner": "5F4XcaiEBkE3ARx2kG29KJ8e94nFfUZQYC4c7zfticastxiD",
+   "children": [],
+   "parents": [
+    [
+     9223372036854775808,
+     "5HRB5xi9W1yEdJGEWPsgtH71mPjAvN2Z9HxNvRMMcK5kXuW2"
+    ]
+   ],
+   "childkey_take": 0,
+   "total_alpha": 938670883948,
+   "root_stake": 54112850282071
+  }
+ },
+ "alpha_divs": [
+  [
+   "5EqYdsxW1EYfb7PdJrazCYd1JuunqhABtHSWKh34jPbQoaUf",
+   223269
+  ],
+  [
+   "5GpDE9kN55cxaa5Ao6k7VQ6LCQVGBfr4Nexdpp51NwoB3fEz",
+   20053409
+  ],
+  [
+   "5HK5tp6t2S59DywmHRWPBVJeJ86T61KjurYqeooqj8sREpeN",
+   26646311697
+  ],
+  [
+   "5D4gEn5S422dTGR5NJJKZ93FNV6hDmfwDPfxFNgcoVnUkZ4f",
+   21517600
+  ],
+  [
+   "5Ggasr6fQqKZXuovBTT44GvhuoFpxBsXGPY3AUtFr9mWxGTV",
+   18196794
+  ],
+  [
+   "5GztaLqpZxZeFSHCvArzBXS7PuybmerEN2Tcirgd95Hy2dQh",
+   96
+  ],
+  [
+   "5G1NjW9YhXLadMWajvTkfcJy6up3yH2q1YzMXDTi6ijanChe",
+   61876283
+  ],
+  [
+   "5H9ABR2Z4hvFkZycn3DuUfWvRYUAQXXu46uHgLFaNZ1ZL9dd",
+   2398220
+  ],
+  [
+   "5EByfpgRHm7FDpJz9iLwU1khBes5tGGgRXyxno45uM4YJWs4",
+   212260
+  ],
+  [
+   "5FFM6Nvvm78GqyMratgXXvjbqZPi7SHgSQ81nyS96jBuUWgt",
+   3347242
+  ],
+  [
+   "5CqRMuYSSqYkSa8AM3VawVfdyUhyBufyesvvgh3vCgaGb9Ed",
+   54298717
+  ],
+  [
+   "5E9vRSxypx39uaz747ZbwA2ey6gFGqFbxU6FuoaVd37KQs25",
+   352824034
+  ],
+  [
+   "5HK2LZRrvj581VjyxuFxb6ehFZoNi5PqAg3Y2HsmYPhGYYXr",
+   34260091
+  ],
+  [
+   "5GTWwu3NCbYmVFzwfrXa1sx8y4UNLR3padWfVZwjNnDmySXP",
+   11742156483
+  ],
+  [
+   "5CyQFykVpfa9xgZVGgBsiNUpjbo1EihBTSkPvDC1FZbL1wxG",
+   26446098780
+  ],
+  [
+   "5DkFEQdEwE5ZcJbv2efF4F5nRTxuEdYhLHqd2EfdR3aLM7Fn",
+   3654631
+  ],
+  [
+   "5DUuFhF41eCf5Yu9h17j9ogGkJhXYr8mkU8tFcUDkH16k2GU",
+   130964
+  ],
+  [
+   "5G9mJMfD12NxF3oXuTrLuCQHyQeJfMkHKHbPncDnGbTn423v",
+   598253
+  ],
+  [
+   "5DvTpiniW9s3APmHRYn8FroUWyfnLtrsid5Mtn5EwMXHN2ed",
+   6232143
+  ],
+  [
+   "5HRB5xi9W1yEdJGEWPsgtH71mPjAvN2Z9HxNvRMMcK5kXuW2",
+   15068
+  ],
+  [
+   "5G9hfkx9wGB1CLMT9WXkpHSAiYzjZb5o1Boyq4KAdDhjwrc5",
+   1092898228
+  ],
+  [
+   "5CszMVts9ueMUSKdAwLFSLT7u4oyxN7fUBpo8Z3ETw1ggMUV",
+   658613400
+  ],
+  [
+   "5CsvRJXuR955WojnGMdok1hbhffZyB4N5ocrv82f3p5A2zVp",
+   669176899
+  ],
+  [
+   "5E2LP6EnZ54m3wS8s1yPvD5c3xo71kQroBw7aUVK32TKeZ5u",
+   18866033021
+  ],
+  [
+   "5GroGY3XJtrJipxnB9qZcig6rVw69kT8fEbGpxcqekty6gV7",
+   433994
+  ],
+  [
+   "5E4z3h9yVhmQyCFWNbY9BPpwhx4xFiPwq3eeqmBgVF6KULde",
+   342420976
+  ],
+  [
+   "5FFSBkNiymQWHaxc8dTmfTT7iHoz6YDexVG4xR2yLrffVR86",
+   846943397
+  ],
+  [
+   "5FLoWCDovMPeH3Gv4syQSZ8TuKcMv6N27g8diDU8zJSeRv8m",
+   723878
+  ],
+  [
+   "5CyQm9M2Jb2Lb5BVgZS9F5MYe97fMUkSVm56nQREqomL2568",
+   36577
+  ],
+  [
+   "5FnGPRV7fQSWjHo8Q3Bgrn7GzciQKJKUitv9WCwqTzZKMVZZ",
+   5168360789
+  ],
+  [
+   "5H3pGapvFiu3zU9BpmxLCGfbEtD5nKMsqbcbq8TsoedRJuza",
+   40134814
+  ],
+  [
+   "5GP7c3fFazW9GXK8Up3qgu2DJBk8inu4aK9TZy3RuoSWVCMi",
+   14425845987
+  ],
+  [
+   "5HbScNssaEfioJHXjcXdpyqo1AKnYjymidGF8opcF9rTFZdT",
+   35106309
+  ],
+  [
+   "5EAdPk767CtE8HhjhjAUNtLzd8vNm9Nm6fq9h3PGSL2VpYDc",
+   64469
+  ],
+  [
+   "5DM7CPqPKtMSADhFKYsstsCS4Tm4Kd6PMXoh6DdqY4MtxmtX",
+   8246264
+  ],
+  [
+   "5HK1Ubcg6MBwDGW7Td4RtAvE1FNyvkHvXKfwymW9q1BCRJAK",
+   45849663
+  ],
+  [
+   "5F7dvCS7mdzJU4o9bAUx4LPgpF3XeMM1XEz9nVqVNga9r6LW",
+   181527
+  ],
+  [
+   "5GcAZ4SFfghRCYqhSTaeGqmgfosWfRRtSjp5T1YxpVuNHZCV",
+   1919340
+  ],
+  [
+   "5G3wMP3g3d775hauwmAZioYFVZYnvw6eY46wkFy8hEWD5KP3",
+   135576663
+  ],
+  [
+   "5FeKsRjZ6zYiX1VNwoDqHJKTToMbks1bstr9ah9VGaPX9DGg",
+   14743
+  ],
+  [
+   "5DXdHixxtCvoa6GHKs2Jgrdzc61882Ftx1zN2sYFQuwgL1S1",
+   4059984199
+  ],
+  [
+   "5EtUYRu7sFqs9obCrN6JSNTnAAcpk98oJ27YV2EF9gC4tvzs",
+   58883040
+  ],
+  [
+   "5DjtmV76CRvxZqd68fDwWyTmsfqUZ5EUXVJ21FKTBzwLT4Kd",
+   53373
+  ],
+  [
+   "5HT9U1J85fyNVudFAHuhYSGajRth8r3kYo7hTvkUXFEEDhQD",
+   3905118
+  ],
+  [
+   "5ELREhApbCahM7FyGLM1V9WDsnnjCRmMCJTmtQD51oAEqwVh",
+   1521745
+  ],
+  [
+   "5CoZxgtfhcJKX2HmkwnsN18KbaT9aih9eF3b6qVPTgAUbifj",
+   233461591
+  ],
+  [
+   "5DvDypN8BPG4ThSTes2YQ64PUSYMngoQYnzR1Dw1a67TdiFp",
+   580080106
+  ],
+  [
+   "5Ckaoft1B1CQ9zBV2FLVju4KPuMQzJVn7QUf3JeTvTq1uUes",
+   395363003
+  ],
+  [
+   "5DFZEJwgkg98h1kyngSEMYY1NnxXE9tkpLGCtQqf9XCtGBxf",
+   43922083
+  ],
+  [
+   "5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1",
+   3691661881
+  ],
+  [
+   "5H66JLTYFWaHDtBtScE4X9f5WDjrBS1iGeXeRykPuH3SMyNh",
+   24
+  ],
+  [
+   "5FtBncJvGhxjBs4aFn2pid6aur9tBUuo9QR7sHe5DkoRizzo",
+   321869178
+  ],
+  [
+   "5Deo9Q3SnZWNPSEPRTgapbyy6egKu2oaNSqD4RQHHJEuzD9Y",
+   3325880
+  ],
+  [
+   "5Fq5v71D4LX8Db1xsmRSy6udQThcZ8sFDqxQFwnUZ1BuqY5A",
+   38832887
+  ]
+ ]
+}
